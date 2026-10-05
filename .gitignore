@@ -1,0 +1,6 @@
+*bad-work/
+*.agents/
+.env
+*.run.json
+*.task.json
+__pycache__/
