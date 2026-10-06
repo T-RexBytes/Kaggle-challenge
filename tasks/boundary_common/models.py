@@ -20,13 +20,19 @@ class RosterModel:
     proxy_id: str
 
 
+# Fixed by the user on 2026-10-07; replaces screening selection (plan.md section 8).
 ROSTER = (
+    RosterModel("GPT-6 Luna", "gpt-6-luna", "openai/gpt-6-luna"),
+    RosterModel("GPT-6.1 Sol", "gpt-6.1-sol", "openai/gpt-6.1-sol"),
     RosterModel("GPT-6 Astra", "gpt-6-astra", "openai/gpt-6-astra"),
-    RosterModel("GPT-5.6 Sol", "gpt-5.6-sol", "openai/gpt-5.6-sol"),
+    RosterModel("GPT-5.6 Terra", "gpt-5.6-terra", "openai/gpt-5.6-terra"),
+    RosterModel("Claude Opus 5.5", "claude-opus-5-5-default", "anthropic/claude-opus-5-5@default"),
+    RosterModel("Claude Opus 5", "claude-opus-5-default", "anthropic/claude-opus-5@default"),
+    RosterModel("Gemini 3.1 Pro Preview", "gemini-3.1-pro-preview", "google/gemini-3.1-pro-preview"),
+    RosterModel("Gemini 3.7 Flash", "gemini-3.7-flash", "google/gemini-3.7-flash"),
     RosterModel("Gemini 3.8 Flash", "gemini-3.8-flash", "google/gemini-3.8-flash"),
-    RosterModel("Gemma 4 31B", "gemma-4-31b-it", "google/gemma-4-31b-it"),
-    RosterModel("Claude Sonnet 5", "claude-sonnet-5-default", "anthropic/claude-sonnet-5@default"),
-    RosterModel("Claude Haiku 4.5", "claude-haiku-4-5-20251001", "anthropic/claude-haiku-4-5@20251001"),
+    RosterModel("Gemma 4 31B", "gemma-4-31b-it", "google/gemma-4-31b"),
+    RosterModel("GLM-5", "glm-5", "zai/glm-5"),
 )
 
 
@@ -55,7 +61,7 @@ def _is_available(llm) -> tuple[bool, str]:
 
 
 def _selected() -> list[tuple[str, object]]:
-    """BOUNDARY_MODELS: unset -> default model; 'roster' -> all six; or comma list of slugs."""
+    """BOUNDARY_MODELS: unset -> default model; 'roster' -> the full roster; or comma list of slugs."""
     from kaggle_benchmarks.kaggle.models import load_model
 
     wanted = os.environ.get("BOUNDARY_MODELS", "").strip()
