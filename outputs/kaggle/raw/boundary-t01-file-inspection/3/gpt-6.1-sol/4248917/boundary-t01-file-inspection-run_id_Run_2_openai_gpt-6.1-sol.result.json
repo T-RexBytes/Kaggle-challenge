@@ -1,0 +1,34 @@
+{
+  "task_name": "boundary-t01-file-inspection",
+  "trial_name": "boundary-t01-file-inspection-Run #2",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "openai/gpt-6.1-sol"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.0
+    }
+  },
+  "exception_info": {
+    "exception_type": "BadRequestError",
+    "exception_message": "Error code: 400 - {'code': '', 'message': '{\"error\":{\"message\":\"Unsupported value: \\'reasoning_effort\\' does not support \\'none\\' with this model. Supported values are: \\'low\\', \\'medium\\', \\'high\\', and \\'xhigh\\'.\",\"type\":\"invalid_request_error\",\"param\":\"reasoning_effort\",\"code\":\"unsupported_value\"}}', 'param': '', 'type': 'invalid_request_error'}",
+    "exception_traceback": "Traceback (most recent call last):\n  File \"/benchmarks/src/kaggle_benchmarks/tasks.py\", line 171, in run\n    run.result = self.func(*args, **kwargs)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_14/1171829925.py\", line 34, in t01_file_inspection\n    done, api_overrides, api_fallbacks = run_with_fallbacks(\n                                         ^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_14/2914384928.py\", line 61, in run_with_fallbacks\n    return attempt(dict(applied)), dict(applied), log\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_14/1171829925.py\", line 21, in attempt\n    final_response = prompt_with_tools(llm, PROMPT, sandbox.tools(), call_kwargs)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_14/2914384928.py\", line 143, in prompt_with_tools\n    return llm.prompt(prompt, tools=tools, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/benchmarks/src/kaggle_benchmarks/actors/llms.py\", line 233, in prompt\n    response = native.native_tool_agent(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/benchmarks/src/kaggle_benchmarks/tools/native.py\", line 87, in native_tool_agent\n    response = llm.respond(input_messages=view, tools=tools, **respond_kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/benchmarks/src/kaggle_benchmarks/chats.py\", line 124, in wrapper\n    result = func(self, *args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/benchmarks/src/kaggle_benchmarks/actors/llms.py\", line 304, in respond\n    invoke_response = self.invoke(\n                      ^^^^^^^^^^^^\n  File \"/benchmarks/src/kaggle_benchmarks/actors/proxy_openai.py\", line 146, in invoke\n    return self._call_api(raw_messages, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/benchmarks/src/kaggle_benchmarks/actors/proxy_openai.py\", line 197, in _call_api\n    response = method(\n               ^^^^^^^\n  File \"/benchmarks/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py\", line 298, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/benchmarks/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py\", line 1308, in create\n    return self._post(\n           ^^^^^^^^^^^\n  File \"/benchmarks/.venv/lib/python3.12/site-packages/openai/_base_client.py\", line 1378, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/benchmarks/.venv/lib/python3.12/site-packages/openai/_base_client.py\", line 1151, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.BadRequestError: Error code: 400 - {'code': '', 'message': '{\"error\":{\"message\":\"Unsupported value: \\'reasoning_effort\\' does not support \\'none\\' with this model. Supported values are: \\'low\\', \\'medium\\', \\'high\\', and \\'xhigh\\'.\",\"type\":\"invalid_request_error\",\"param\":\"reasoning_effort\",\"code\":\"unsupported_value\"}}', 'param': '', 'type': 'invalid_request_error'}\n",
+    "occurred_at": "2026-10-06T19:08:08.030498Z"
+  },
+  "started_at": "2026-10-06T19:08:07.624537Z",
+  "finished_at": "2026-10-06T19:08:08.030498Z"
+}

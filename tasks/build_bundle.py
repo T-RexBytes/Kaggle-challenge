@@ -15,7 +15,7 @@ from pathlib import Path
 TASKS = Path(__file__).resolve().parent
 DIST = TASKS.parent / "dist"
 # dependency order: later modules may use names from earlier ones
-COMMON_MODULES = ("trace", "usage", "record", "sandbox", "models")
+COMMON_MODULES = ("trace", "usage", "transport", "record", "sandbox", "cell", "models")
 
 
 # kaggle_benchmarks reads the Model Proxy env at import time, and the inlined
@@ -32,11 +32,12 @@ except ImportError:  # not needed on Kaggle
 
 
 def strip_internal_imports(source: str) -> str:
-    """Drop `from .x import ...` and `from boundary_common import ...` (any length)."""
+    """Drop `from .x import ...` and `from boundary_common[.mod] import ...` (any length)."""
     lines = source.splitlines(keepends=True)
     drop = set()
     for node in ast.parse(source).body:
-        if isinstance(node, ast.ImportFrom) and (node.level > 0 or node.module == "boundary_common"):
+        internal = node.module and node.module.split(".")[0] == "boundary_common" if isinstance(node, ast.ImportFrom) else False
+        if isinstance(node, ast.ImportFrom) and (node.level > 0 or internal):
             drop.update(range(node.lineno - 1, node.end_lineno))
     return "".join(l for i, l in enumerate(lines) if i not in drop)
 

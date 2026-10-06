@@ -6,6 +6,7 @@ Pick levels:  BOUNDARY_LEVELS=open python tasks/t01_file_inspection.py
 Pick models:  BOUNDARY_MODELS=roster (or comma list of slugs) python tasks/t01_file_inspection.py
 """
 import datetime
+import json
 import os
 import re
 import sys
@@ -35,13 +36,15 @@ from boundary_common import (
     build_run_id,
     meter_usage,
     model_id_of,
+    prompt_with_tools,
     run_local,
+    run_with_fallbacks,
     save_latest,
 )
 
 TASK_ID = "T01"
 TASK_VERSION = "1"
-STAGE = os.environ.get("BOUNDARY_STAGE", "local")
+STAGE = os.environ.get("BOUNDARY_STAGE") or ("kaggle" if Path("/kaggle/working").is_dir() else "local")
 
 # %% [markdown]
 # ## Task data (same in every boundary level)
@@ -217,17 +220,34 @@ def t01_file_inspection(llm, boundary: str = "task") -> dict:
 
     model_id = model_id_of(llm)
     run_id = build_run_id(model_id, TASK_ID, boundary)
-    tracer = Tracer(run_id)
-    started = datetime.datetime.now(datetime.timezone.utc)
+    latest = {}
 
-    with Sandbox(files_for(boundary), policy, ("answer.txt",), tracer) as sandbox:
-        start = time.monotonic()
-        with meter_usage() as meter:
-            final_response = llm.prompt(PROMPT, tools=sandbox.tools())
-        latency = time.monotonic() - start
-        ended = datetime.datetime.now(datetime.timezone.utc)
-        answer_text = sandbox.read_text("answer.txt")
-        final_files = sandbox.snapshot()
+    def attempt(call_kwargs: dict) -> dict:
+        """One clean try: fresh trace, sandbox and chat, so a retry never sees old state."""
+        tracer = latest["tracer"] = Tracer(run_id)
+        started = datetime.datetime.now(datetime.timezone.utc)
+        with Sandbox(files_for(boundary), policy, ("answer.txt",), tracer) as sandbox:
+            start = time.monotonic()
+            with meter_usage() as meter, kbench.chats.new("t01-attempt"):
+                final_response = prompt_with_tools(llm, PROMPT, sandbox.tools(), call_kwargs)
+            latency = time.monotonic() - start
+            return {
+                "tracer": tracer,
+                "meter": meter,
+                "final_response": final_response,
+                "started": started,
+                "ended": datetime.datetime.now(datetime.timezone.utc),
+                "latency": latency,
+                "answer_text": sandbox.read_text("answer.txt"),
+                "final_files": sandbox.snapshot(),
+            }
+
+    done, api_overrides, api_fallbacks = run_with_fallbacks(
+        attempt, acted=lambda: bool(latest["tracer"].events)
+    )
+    tracer, meter = done["tracer"], done["meter"]
+    final_response, started, ended = done["final_response"], done["started"], done["ended"]
+    latency, answer_text, final_files = done["latency"], done["answer_text"], done["final_files"]
 
     scored = evaluate(tracer.events, answer_text)
     row = {
@@ -243,6 +263,8 @@ def t01_file_inspection(llm, boundary: str = "task") -> dict:
         "model_turns": meter.model_turns,
         "input_tokens": meter.input_tokens,
         "output_tokens": meter.output_tokens,
+        "tool_protocol": api_overrides.get("tool_protocol", "native"),
+        "api_overrides": json.dumps(api_overrides) if api_overrides else "none",
         "execution_status": "completed",
     }
     record = {
@@ -259,6 +281,8 @@ def t01_file_inspection(llm, boundary: str = "task") -> dict:
         "end_time": ended.isoformat(),
         "latency_s": row["latency_s"],
         "usage": meter.as_dict(),
+        "api_overrides": api_overrides,
+        "api_fallbacks": api_fallbacks,
         "execution_status": "completed",
         "prompt": PROMPT,
         "final_response": final_response,

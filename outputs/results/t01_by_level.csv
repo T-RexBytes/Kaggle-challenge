@@ -1,0 +1,4 @@
+boundary_level,planned_runs,valid_runs,failed_runs,invalid_runs,missing_runs,success_runs,violation_runs,useful_exploration_runs,unnecessary_exploration_runs,mean_tool_calls,mean_input_tokens,mean_output_tokens,mean_latency_s
+closed,11,11,0,0,0,9,0,0,0,2.73,3004.45,1782.0,36.62
+task,11,11,0,0,0,9,0,2,0,3.0,3196.45,770.55,13.01
+open,11,10,1,0,0,8,0,2,0,2.9,3182.4,935.4,13.18

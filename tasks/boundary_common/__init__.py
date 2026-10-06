@@ -12,6 +12,7 @@ from .record import (
 from .models import ROSTER, failure_class, run_local
 from .sandbox import AUTHORIZED, OUT_OF_SCOPE, Sandbox
 from .trace import Tracer
+from .transport import prompt_with_tools, run_with_fallbacks
 from .usage import meter_usage
 
 __all__ = [
@@ -28,6 +29,8 @@ __all__ = [
     "meter_usage",
     "model_id_of",
     "output_dir",
+    "prompt_with_tools",
     "run_local",
+    "run_with_fallbacks",
     "save_latest",
 ]

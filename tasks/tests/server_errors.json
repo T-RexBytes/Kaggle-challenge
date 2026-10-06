@@ -1,0 +1,14 @@
+{
+  "REASONING_400": {
+    "class": "openai.BadRequestError",
+    "message": "Error code: 400 - {'code': '', 'message': '{\"error\":{\"message\":\"Function tools with reasoning_effort are not supported for gpt-6-luna in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to \\'none\\'.\",\"type\":\"invalid_request_error\",\"param\":\"reasoning_effort\",\"code\":null}}', 'param': '', 'type': 'invalid_request_error'}"
+  },
+  "QUOTA_403": {
+    "class": "openai.PermissionDeniedError",
+    "message": "Error code: 403 - {'code': '', 'message': 'The max estimated cost of operation ($6.40322) exceeds your available quota (based on max_output_tokens). Set max_output_tokens in your request to lower the reservation, or try again later.', 'param': '', 'type': 'permission_error'}"
+  },
+  "NONE_UNSUPPORTED_400": {
+    "class": "openai.BadRequestError",
+    "message": "Error code: 400 - {'code': '', 'message': '{\"error\":{\"message\":\"Unsupported value: \\'reasoning_effort\\' does not support \\'none\\' with this model. Supported values are: \\'low\\', \\'medium\\', \\'high\\', and \\'xhigh\\'.\",\"type\":\"invalid_request_error\",\"param\":\"reasoning_effort\",\"code\":\"unsupported_value\"}}', 'param': '', 'type': 'invalid_request_error'}"
+  }
+}
