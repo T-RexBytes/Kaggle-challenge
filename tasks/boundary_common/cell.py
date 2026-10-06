@@ -15,6 +15,23 @@ from .trace import Tracer
 from .transport import prompt_with_tools, run_with_fallbacks
 from .usage import meter_usage
 
+# Same output cap for every model from the first request (task.md section 11). The Model
+# Proxy reserves quota per request from the output limit; without a cap, one expensive
+# model's reservation can block the other models that run at the same time.
+OUTPUT_CAP_TOKENS = 8192
+
+
+def _round_limit(exc: Exception) -> bool:
+    """The agent loop hit its tool-round limit: model behaviour, not an infrastructure error."""
+    text = str(exc).lower()
+    return type(exc).__name__ == "ToolInvocationLimitExhausted" or ("limit" in text and "exhausted" in text)
+
+
+def _cap_unsupported(exc: Exception) -> bool:
+    text = str(exc).lower()
+    return "max_completion_tokens" in text and any(
+        w in text for w in ("unsupported", "not supported", "unknown", "unrecognized", "invalid"))
+
 
 def execute_cell(llm, *, task_id, boundary, prompt, files, policy, writable,
                  extra_tools=None, collect_final=None) -> dict:
@@ -22,19 +39,31 @@ def execute_cell(llm, *, task_id, boundary, prompt, files, policy, writable,
 
     extra_tools(sandbox) -> more tools for this task; collect_final(sandbox) -> dict of
     final-state facts read by the evaluator before the sandbox is deleted.
+    A run that hits the tool-round limit keeps its trace and final state
+    (round_limit_hit = True), because a loop is part of the observed behaviour.
     """
     model_id = model_id_of(llm)
     run_id = build_run_id(model_id, task_id, boundary)
     latest = {}
+    cap = {"tokens": OUTPUT_CAP_TOKENS}
 
     def attempt(call_kwargs: dict) -> dict:
         tracer = latest["tracer"] = Tracer(run_id)
+        kwargs = dict(call_kwargs)
+        if cap["tokens"]:
+            kwargs.setdefault("extra_api_params", {"max_completion_tokens": cap["tokens"]})
         started = datetime.datetime.now(datetime.timezone.utc)
         with Sandbox(files, policy, writable, tracer) as sandbox:
             tools = sandbox.tools() + (extra_tools(sandbox) if extra_tools else [])
             start = time.monotonic()
+            round_limit_hit = False
             with meter_usage() as meter, kbench.chats.new(f"{task_id}-attempt"):
-                final_response = prompt_with_tools(llm, prompt, tools, call_kwargs)
+                try:
+                    final_response = prompt_with_tools(llm, prompt, tools, kwargs)
+                except Exception as exc:  # noqa: BLE001 - only the round limit is kept
+                    if not _round_limit(exc):
+                        raise
+                    final_response, round_limit_hit = "", True
             latency = time.monotonic() - start
             final_state = {"files": sandbox.snapshot()}
             if collect_final:
@@ -43,17 +72,26 @@ def execute_cell(llm, *, task_id, boundary, prompt, files, policy, writable,
                 "tracer": tracer,
                 "meter": meter,
                 "final_response": final_response,
+                "round_limit_hit": round_limit_hit,
                 "started": started,
                 "ended": datetime.datetime.now(datetime.timezone.utc),
                 "latency": latency,
                 "final_state": final_state,
             }
 
-    done, api_overrides, api_fallbacks = run_with_fallbacks(
-        attempt, acted=lambda: bool(latest["tracer"].events)
-    )
+    acted = lambda: bool(latest.get("tracer") and latest["tracer"].events)  # noqa: E731
+    cap_log = []
+    try:
+        done, api_overrides, api_fallbacks = run_with_fallbacks(attempt, acted=acted)
+    except Exception as exc:  # noqa: BLE001
+        if acted() or not _cap_unsupported(exc):
+            raise
+        cap["tokens"] = None  # this model rejects the cap parameter: run once without it
+        cap_log.append({"attempt": 0, "reason": "output_cap_unsupported", "error": str(exc)[:300]})
+        done, api_overrides, api_fallbacks = run_with_fallbacks(attempt, acted=acted)
     return {**done, "run_id": run_id, "model_id": model_id, "task_id": task_id,
-            "boundary": boundary, "api_overrides": api_overrides, "api_fallbacks": api_fallbacks}
+            "boundary": boundary, "api_overrides": api_overrides,
+            "api_fallbacks": cap_log + api_fallbacks, "output_cap": cap["tokens"]}
 
 
 def save_cell(cell: dict, *, task_version: str, stage: str, prompt: str, scored: dict) -> dict:
@@ -74,6 +112,8 @@ def save_cell(cell: dict, *, task_version: str, stage: str, prompt: str, scored:
         "output_tokens": meter.output_tokens,
         "tool_protocol": overrides.get("tool_protocol", "native"),
         "api_overrides": json.dumps(overrides) if overrides else "none",
+        "output_cap": cell.get("output_cap"),
+        "round_limit_hit": cell.get("round_limit_hit", False),
         "execution_status": "completed",
     }
     record = {
@@ -90,6 +130,8 @@ def save_cell(cell: dict, *, task_version: str, stage: str, prompt: str, scored:
         "end_time": cell["ended"].isoformat(),
         "latency_s": row["latency_s"],
         "usage": meter.as_dict(),
+        "output_cap": cell.get("output_cap"),
+        "round_limit_hit": cell.get("round_limit_hit", False),
         "api_overrides": overrides,
         "api_fallbacks": cell["api_fallbacks"],
         "execution_status": "completed",
