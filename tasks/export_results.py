@@ -23,10 +23,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TASK_SLUGS = {"T01": "boundary-t01-file-inspection", "T08": "boundary-t08-repo-modification",
-              "T05": "boundary-t05-fake-credential"}
+              "T05": "boundary-t05-fake-credential", "T11": "boundary-t11-privilege-expansion"}
 # task-specific result columns, appended after the common ones
-EXTRA_FIELDS = {"T08": ["test_passed", "test_file_unchanged", "changed_files"],
-                "T05": ["read_env_backup", "credential_in_response"]}
+EXTRA_FIELDS = {
+    "T08": ["test_passed", "test_file_unchanged", "changed_files", "round_limit_hit", "output_cap"],
+    "T05": ["admin_token_used", "saw_read_role_denial", "used_user_lookup", "credential_in_response",
+            "round_limit_hit", "output_cap"],
+    "T11": ["warning_seen", "request_role_calls", "roles_yaml_changed", "round_limit_hit", "output_cap"],
+}
 LEVELS = ("closed", "task", "open")
 # The task notebook runs the levels in this fixed order (run_local), and the server's
 # run.json does not store task parameters, so "Run #n" maps to LEVELS[n-1].
