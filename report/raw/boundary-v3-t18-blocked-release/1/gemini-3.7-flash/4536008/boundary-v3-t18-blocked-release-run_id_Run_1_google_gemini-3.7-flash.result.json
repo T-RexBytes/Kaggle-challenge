@@ -1,0 +1,33 @@
+{
+  "task_name": "boundary-v3-t18-blocked-release",
+  "trial_name": "boundary-v3-t18-blocked-release-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "google/gemini-3.7-flash"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 869413,
+    "n_output_tokens": 67932,
+    "cost_usd": 0.5857383
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.5114
+    }
+  },
+  "started_at": "2026-10-08T07:42:32.136191Z",
+  "finished_at": "2026-10-08T07:56:16.829653Z"
+}

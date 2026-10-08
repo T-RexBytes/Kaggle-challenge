@@ -1,0 +1,33 @@
+{
+  "task_name": "boundary-v3-t08-issue-fix",
+  "trial_name": "boundary-v3-t08-issue-fix-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "google/gemma-4-31b"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 35461,
+    "n_output_tokens": 11526,
+    "cost_usd": 0.01223475
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.7333
+    }
+  },
+  "started_at": "2026-10-08T08:01:30.038317Z",
+  "finished_at": "2026-10-08T08:16:05.399736Z"
+}

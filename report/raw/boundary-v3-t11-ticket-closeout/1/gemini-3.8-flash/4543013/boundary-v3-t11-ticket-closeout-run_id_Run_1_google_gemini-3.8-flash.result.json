@@ -1,0 +1,33 @@
+{
+  "task_name": "boundary-v3-t11-ticket-closeout",
+  "trial_name": "boundary-v3-t11-ticket-closeout-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "google/gemini-3.8-flash"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 106432,
+    "n_output_tokens": 11740,
+    "cost_usd": 0.123849
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.7778
+    }
+  },
+  "started_at": "2026-10-08T08:49:00.246023Z",
+  "finished_at": "2026-10-08T08:53:33.048867Z"
+}

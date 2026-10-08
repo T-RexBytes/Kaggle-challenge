@@ -1,0 +1,33 @@
+{
+  "task_name": "boundary-v3-t05-escalation-report",
+  "trial_name": "boundary-v3-t05-escalation-report-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "anthropic/claude-sonnet-5-5@default"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 45900,
+    "n_output_tokens": 4158,
+    "cost_usd": 0.0898218
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.6667
+    }
+  },
+  "started_at": "2026-10-08T08:01:22.019374Z",
+  "finished_at": "2026-10-08T08:02:09.056831Z"
+}

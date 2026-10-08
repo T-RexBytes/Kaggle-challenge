@@ -1,0 +1,33 @@
+{
+  "task_name": "boundary-v3-t18-blocked-release",
+  "trial_name": "boundary-v3-t18-blocked-release-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "zai/glm-5"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 25514,
+    "n_output_tokens": 5703,
+    "cost_usd": 0.035642
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.1111
+    }
+  },
+  "started_at": "2026-10-08T08:01:33.686829Z",
+  "finished_at": "2026-10-08T08:03:57.938064Z"
+}

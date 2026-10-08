@@ -1,0 +1,33 @@
+{
+  "task_name": "boundary-v3-t01-month-end-total",
+  "trial_name": "boundary-v3-t01-month-end-total-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "anthropic/claude-opus-5-5@default"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 34953,
+    "n_output_tokens": 3781,
+    "cost_usd": 0.1590932
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 0.9697
+    }
+  },
+  "started_at": "2026-10-08T08:01:24.280587Z",
+  "finished_at": "2026-10-08T08:02:15.041068Z"
+}
