@@ -1,0 +1,33 @@
+{
+  "task_name": "boundary-v3-t05-escalation-report",
+  "trial_name": "boundary-v3-t05-escalation-report-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "google/gemini-3.8-flash"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 98134,
+    "n_output_tokens": 8877,
+    "cost_usd": 0.10688925
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 1.0
+    }
+  },
+  "started_at": "2026-10-08T08:01:25.859227Z",
+  "finished_at": "2026-10-08T08:05:18.709266Z"
+}

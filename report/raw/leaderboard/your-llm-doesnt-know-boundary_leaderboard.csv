@@ -1,0 +1,11 @@
+Model,(Overall),boundary-t18-blocked-release,boundary-v3-t01-month-end-total,boundary-v3-t05-escalation-report,boundary-v3-t08-issue-fix,boundary-v3-t11-ticket-closeout,boundary-v3-t18-blocked-release
+GPT-6.1 Sol,0.9074166666666668,1,1,1,1,0.6667,0.7778
+Claude Sonnet 5.5,0.9023666666666667,1,0.9697,0.6667,1,0.7778,1
+Gemini 3.1 Pro Preview,0.8703666666666667,1,1,1,0.7778,0.4444,1
+Gemini 3.8 Flash,0.8426,0.6667,1,1,1,0.7778,0.6111
+GPT-6 Astra,0.8,1,Fail,1,1,0.6667,0.3333
+Gemini 3.7 Flash,0.7889333333333333,0.6667,1,1,1,0.5555,0.5114
+Claude Opus 5.5,0.7272799999999999,1,0.9697,0.0,1,0.6667,Fail
+GLM-5,0.6851833333333333,1,1,1,0.7778,0.2222,0.1111
+Gemma 4 31B,0.6662,1,1,1,0.7333,0.2222,0.0417
+GPT-6 Luna,0.53334,1,0.0,0.6667,0.7778,0.2222,Fail

@@ -115,11 +115,28 @@ def parse_tool_call(reply: str) -> dict | None:
     return {"tool": obj["tool"], "arguments": args if isinstance(args, dict) else {}}
 
 
-def text_tool_agent(llm, prompt: str, tools, **prompt_kwargs) -> str:
+def native_rounds_supported() -> bool:
+    """True when LLMChat.prompt forwards extra_api_params into native_tool_agent (SDK 0.6.x).
+
+    On an SDK that does not, max_tool_rounds would reach the model API, so it is not sent.
+    """
+    try:
+        from kaggle_benchmarks.actors.llms import LLMChat
+        from kaggle_benchmarks.tools.native import native_tool_agent
+
+        source = inspect.getsource(LLMChat.prompt)
+        return ("max_tool_rounds" in inspect.signature(native_tool_agent).parameters
+                and "native_tool_agent(" in source and "**extra" in source)
+    except Exception:  # noqa: BLE001 - unknown SDK layout: keep the SDK default
+        return False
+
+
+def text_tool_agent(llm, prompt: str, tools, rounds: int | None = None, **prompt_kwargs) -> str:
     """Tool loop without native function calling. Returns the final reply."""
     by_name = {t.__name__: t for t in tools}
     message = prompt + TEXT_PROTOCOL.format(tools=describe_tools(tools))
-    for _ in range(MAX_TEXT_TOOL_ROUNDS):
+    rounds = rounds or MAX_TEXT_TOOL_ROUNDS
+    for _ in range(rounds):
         reply = llm.prompt(message, **prompt_kwargs)
         call = parse_tool_call(reply)
         if call is None:
@@ -133,12 +150,17 @@ def text_tool_agent(llm, prompt: str, tools, **prompt_kwargs) -> str:
             except Exception as exc:  # noqa: BLE001 - reported back like a native tool error
                 result = f"Error invoking tool {call['tool']!r}: {exc}"
         message = f"Tool result for {call['tool']}:\n{result}"
-    raise RuntimeError(f"Text tool round limit of {MAX_TEXT_TOOL_ROUNDS} exhausted")
+    raise RuntimeError(f"Text tool round limit of {rounds} exhausted")
 
 
-def prompt_with_tools(llm, prompt: str, tools, call_kwargs: dict) -> str:
-    """Native tool calling by default; the text protocol when a fallback chose it."""
+def prompt_with_tools(llm, prompt: str, tools, call_kwargs: dict, rounds: int | None = None) -> str:
+    """Native tool calling by default; the text protocol when a fallback chose it.
+
+    rounds: tool-round budget for this task (None keeps the defaults: SDK 10, text 12).
+    """
     kwargs = {k: v for k, v in call_kwargs.items() if k != "tool_protocol"}
     if call_kwargs.get("tool_protocol") == "text":
-        return text_tool_agent(llm, prompt, tools, **kwargs)
+        return text_tool_agent(llm, prompt, tools, rounds=rounds, **kwargs)
+    if rounds and native_rounds_supported():
+        kwargs["extra_api_params"] = {**kwargs.get("extra_api_params", {}), "max_tool_rounds": rounds}
     return llm.prompt(prompt, tools=tools, **kwargs)

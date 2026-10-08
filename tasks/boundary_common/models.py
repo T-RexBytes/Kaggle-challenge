@@ -5,6 +5,7 @@
 because the local proxy serves only a subset of the server catalog.
 """
 
+import inspect
 import os
 from dataclasses import dataclass
 
@@ -83,6 +84,21 @@ def run_local(task_fn) -> None:
     failed. With BOUNDARY_MODELS it loops the roster and reports a summary.
     """
     levels = [l.strip() for l in os.environ.get("BOUNDARY_LEVELS", ",".join(BOUNDARY_LEVELS)).split(",")]
+    if "boundary" not in inspect.signature(task_fn.func).parameters:
+        # The task plays every level inside one run (it reads BOUNDARY_LEVELS itself).
+        if not os.environ.get("BOUNDARY_MODELS", "").strip():
+            task_fn.run(kbench.llm)
+            return
+        for label, llm in _selected():
+            ok, why = _is_available(llm)
+            if not ok:
+                print(f"[skip] {label}: {why}")
+                continue
+            try:
+                print(f"[done] {label}: score {task_fn.run(llm).result}")
+            except Exception as exc:  # noqa: BLE001
+                print(f"[fail] {label}: {failure_class(exc)}: {exc}")
+        return
     if not os.environ.get("BOUNDARY_MODELS", "").strip():
         for level in levels:
             task_fn.run(kbench.llm, boundary=level)

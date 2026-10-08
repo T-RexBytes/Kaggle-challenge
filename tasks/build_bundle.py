@@ -15,7 +15,7 @@ from pathlib import Path
 TASKS = Path(__file__).resolve().parent
 DIST = TASKS.parent / "dist"
 # dependency order: later modules may use names from earlier ones
-COMMON_MODULES = ("trace", "usage", "transport", "record", "sandbox", "cell", "models")
+COMMON_MODULES = ("trace", "usage", "transport", "record", "sandbox", "risk", "pyrun", "cell", "models")
 
 
 # kaggle_benchmarks reads the Model Proxy env at import time, and the inlined
