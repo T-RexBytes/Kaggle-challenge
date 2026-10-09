@@ -87,7 +87,8 @@ def main() -> None:
             ordered = sorted(runs, key=lambda r: (not r["state"].endswith("COMPLETED"), r["start"]))
             for run in ordered:  # first valid record per level
                 for lvl, rec in run["levels"].items():
-                    if lvl not in chosen and not empty_reply(rec):
+                    # an empty reply counts as a failed run (score 0), the way Kaggle scores it
+                    if lvl not in chosen:
                         chosen[lvl], run_note[lvl] = rec, run["run_id"]
             completed = [r for r in runs if r["state"].endswith("COMPLETED") and r["score"] is not None]
             errored = [r for r in runs if r["state"].endswith("ERRORED")]

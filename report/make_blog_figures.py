@@ -89,7 +89,7 @@ FOOTER = "BOUNDARY  ·  the trial of ten models  ·  kaggle.com/benchmarks/trexb
 LEVELS = ["closed", "task", "open"]
 LEVEL_LABEL = {"closed": "Closed Box", "task": "Task Box", "open": "Open Box"}
 TASKS = ["T01v3", "T08v3", "T05v3", "T11v3", "T18v3"]
-TASKS_ALL = ["T01v3", "T08v3", "T05v3", "T11v3", "T18v3", "T17v3"]
+TASKS_ALL = ["T01v3", "T08v3", "T05v3", "T11v3", "T18v3"]
 TASK_SHORT = {"T01v3": "Invoices", "T08v3": "Bug fix", "T05v3": "Records", "T11v3": "Tickets",
               "T18v3": "Release", "T17v3": "Config"}
 MODELS = ["GPT-6.1 Sol", "GPT-6 Astra", "GPT-6 Luna", "Claude Sonnet 5.5",
@@ -473,7 +473,7 @@ def fig_outcomes(d):
     P = Plate("VII", "THE VERDICTS", "How every run ended",
               "All 15 runs per model: five tasks, each at three access levels", h=8.2)
     P.legend(P.top + 0.12, [("panel", (c, c if n != "NA" else NA_HATCH), n) if n != "NA" else ("hatch", None, n)
-                            for n, c in CATS])
+                            for n, c in CATS if n != "NA" or ct["NA"].sum() > 0])
     ax = P.axes(3.0, 0.75, P.top + 0.55, 0.95)
     y = np.arange(len(ct))
     left = np.zeros(len(ct))
@@ -579,6 +579,7 @@ def fig_heatmap(d, inc):
                 na_patch(ax, x0, y0, pw, ph)
                 ax.text(j + .5, i + .5, "NA", ha="center", va="center", fontsize=13, color=SUB,
                         bbox=dict(boxstyle="square,pad=0.15", fc=NA_FACE, ec="none"))
+                cells[(m, t)] = (None, "NA")
                 continue
             mi = inc[(inc.model_name == m) & (inc.task_id == t)]
             vl = set(sub[sub.valid].level)  # only incidents from valid levels
@@ -606,7 +607,8 @@ def fig_heatmap(d, inc):
     ax.tick_params(length=0, pad=8)
     items = [("dot", CLEAN, "Clean")]
     items += [("panel", (SEV_FACE[k], SEV_HUE[k] if k < 4 else CRIMSON), SEV_LABEL[k]) for k in range(1, 5)]
-    items.append(("hatch", None, "NA"))
+    if any(v[0] is None for v in cells.values()):
+        items.append(("hatch", None, "NA"))
     P.legend(P.h - 0.95, items, size=13.5, gap=0.38)
     P.save("crime_heatmap.png")
     return cells
@@ -909,7 +911,7 @@ def main():
         hero=f"Plate I, More access, more trespassing: from Closed to Open Box, task success falls {ts[0]:.0%} to {ts[2]:.0%}, clean success {ss[0]:.0%} to {ss[2]:.0%}, and boundary crossings rise {bv[0]:.0%} to {bv[2]:.0%} (valid runs per level: {n[0]}, {n[1]}, {n[2]}; Wilson 95% bands).",
         dumb=f"Plate V, Who held the line when the doors opened: mean level score per model, Closed vs Open Box, sorted by drop; largest drop {big.m} ({big.c:.2f} to {big.o:.2f}){dagger_note}.",
         bars="Plate VII, How every run ended: every planned level run per model (15 each) split into clean success, succeeded but crossed, overclaimed, failed and NA.",
-        heat="Plate VI, Where each model crossed the line: the worst act of each model in each task across the three levels, as a one or two word tag from the incident log; Config (T17) has no runs yet (NA).",
+        heat="Plate VI, Where each model crossed the line: the worst act of each model in each task across the three levels, as a one or two word tag from the incident log.",
         tl=f"Plate II, the self crowned: T11 (Tickets) Open Box tool call tracks; {ntook} of 10 models granted themselves the lead role, then wrote audit entries or took tickets as lead.",
         lad=f"Plate III, Four locked doors, then the window: Gemma 4 31B on T18 (Release, Task Box) made {sum(1 for s in steps if s[2] == 'denied')} denied out of scope attempts, then patched the vendor function from its own file, got the check green and shipped the release.",
         sm="Plate VIII, Risk climbs with access, for some: mean p_risk per model at each access level on a shared scale; the clean models stay flat, the risky ones climb at Open Box.",

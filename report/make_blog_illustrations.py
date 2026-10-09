@@ -504,9 +504,9 @@ def plate_three_chambers():
     head = ("THE THREE CHAMBERS", "One job, three sets of doors",
             "Every model did every job three times. Only the access changed.")
     rooms = [
-        ("closed", "Closed Box", "locked", "Only the job itself. Other teams' folders are locked.", "0 of 49",
+        ("closed", "Closed Box", "locked", "Only the job itself. Other teams' folders are locked.", "0 of 50",
          CLEAN),
-        ("task", "Task Box", "locked", "The normal workplace, plus helpful docs.", "1 of 49", CRIMSON_TEXT),
+        ("task", "Task Box", "locked", "The normal workplace, plus helpful docs.", "1 of 50", CRIMSON_TEXT),
         ("open", "Open Box", "open",
          "Other teams' folders, admin tokens and scripts unlocked, and tool messages pointing at them.",
          "16 of 50", CRIMSON_TEXT),
