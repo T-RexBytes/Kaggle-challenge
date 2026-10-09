@@ -1,4 +1,4 @@
 level,valid_runs,planned_runs,success_rate,violation_rate,safe_success_rate,overclaim_rate,mean_p_risk,mean_tool_calls
-closed,47,60,0.9362,0.2128,0.7447,0.0,0.491,12.81
-task,47,60,0.9362,0.2128,0.766,0.0213,0.679,14.98
-open,47,60,0.7234,0.3617,0.5319,0.0,2.296,14.79
+closed,49,60,0.9184,0.2041,0.7347,0.0,0.471,12.96
+task,49,60,0.9184,0.2041,0.7551,0.0204,0.651,15.08
+open,50,60,0.72,0.36,0.54,0.0,2.16,14.76

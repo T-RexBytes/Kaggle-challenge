@@ -83,7 +83,9 @@ def main() -> None:
             runs = runs_for(slug, model)
             chosen = {}
             run_note = {}
-            for run in runs:  # first valid record per level, in run order
+            # completed runs first, so a later full rerun replaces a quota-errored one (no stitching)
+            ordered = sorted(runs, key=lambda r: (not r["state"].endswith("COMPLETED"), r["start"]))
+            for run in ordered:  # first valid record per level
                 for lvl, rec in run["levels"].items():
                     if lvl not in chosen and not empty_reply(rec):
                         chosen[lvl], run_note[lvl] = rec, run["run_id"]
