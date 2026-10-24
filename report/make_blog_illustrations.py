@@ -303,46 +303,39 @@ def mix(c0, c1, t):
 
 # ----------------------------------------------------------------- 1 cover
 def plate_cover():
+    """Scene cover: three doors, ten defendants as seals, one line. No title text (the post title sits above it)."""
     P = Sheet("", "", "", h=5.04, footer=False)
     ax = P.ov
-    cx = W / 2
-    P.tracked(cx, P.Y(0.80), "BOUNDARY · AN AI BENCHMARK", 12.5, TITLING, GOLD_RULE, tracking=0.32,
+    cx0 = W / 2
+    P.text(cx0, P.Y(0.86), "YOUR LLM DOESN'T KNOW BOUNDARY", size=27, family=TITLING, color=TITLE_INK,
+           ha="center", va="baseline")
+    P.tracked(cx0, P.Y(1.20), "THE TRIAL OF TEN MODELS", 10.5, TITLING, GOLD_RULE, tracking=0.34,
               weight="bold")
-    title = "DOES YOUR LLM KNOW THE BOUNDARY?"
-    size = 40
-    while P.tracked_width(title, size, TITLING, 0.05) > 10.2:
-        size -= 0.5
-    P.tracked(cx, P.Y(1.68), title, size, TITLING, TITLE_INK, tracking=0.05)
-    P.divider(cx, P.Y(2.02), half=1.6)
-    P.text(cx, P.Y(2.50), "The trial of ten AI agents, three chambers, one rule: do not touch what is not yours",
-           size=18.5, color=SUB, ha="center", va="baseline", style="italic")
-    stats = [("crown", "6 of 10", "crowned themselves", CRIMSON, CRIMSON_TEXT),
-             ("door", "16 of 50", "walked through open doors", CRIMSON, CRIMSON_TEXT),
-             ("key", "0 of 20", "touched the keys", CLEAN, CLEAN)]
-    yc = P.Y(3.72)
-    colw = 3.45
-    xs = [cx - colw, cx, cx + colw]
-    for k, ((icon, num, cap, col, tcol), x) in enumerate(zip(stats, xs)):
-        nw = P.wid(num, 30, NUM)
-        cw = P.wid(cap, 16)
-        blockw = 0.78 + 0.22 + max(nw, cw)
-        x0 = x - blockw / 2
-        sx = x0 + 0.39
-        medallion(ax, sx, yc, 0.38, ring=col, face="#1D1812")
-        if icon == "crown":
-            icon_crown(ax, sx, yc - 0.02, 0.17, col)
-        elif icon == "door":
-            icon_door(ax, sx, yc + 0.02, 0.17, col)
+    # three chambers
+    dw, dh, yb = 1.18, 1.36, P.Y(3.12)
+    for k, (x, kind, name) in enumerate(((cx0 - 2.6, "locked", "CLOSED"), (cx0, "locked", "TASK"),
+                                         (cx0 + 2.6, "open", "OPEN"))):
+        draw_door(P, x, yb, dw, dh, kind)
+        if name == "CLOSED":  # chained shut: only the job itself
+            for sgn in (-1, 1):
+                xs_ = np.linspace(x - dw / 2 + 0.06, x + dw / 2 - 0.06, 13)
+                ys_ = yb + dh * 0.42 + sgn * (xs_ - x) * (dh * 0.55 / dw)
+                ax.plot(xs_, ys_, color=CANDLE, linewidth=2.2, zorder=25.5, solid_capstyle="round")
+                ax.scatter(xs_, ys_, s=26, facecolor=BG, edgecolor=CANDLE, linewidth=1.0, zorder=25.6)
+            icon_padlock(ax, x, yb + dh * 0.42 - 0.02, 0.26, CANDLE, z=25.8)
+        P.tracked(x, P.Y(3.42), name, 10, TITLING, CRIMSON_TEXT if kind == "open" else SUB, tracking=0.3,
+                  weight="bold")
+    # ten defendants: six took the crown in the open ticket job, four did not
+    ys, r, gap = P.Y(3.98), 0.19, 0.62
+    xs = [cx0 + (k - 4.5) * gap for k in range(10)]
+    for k, x in enumerate(xs):
+        if k < 6:
+            wax_seal(ax, x, ys, r, CRIMSON, CRIMSON_FILL)
+            icon_crown(ax, x, ys - 0.01, 0.085, TITLE_INK, z=31)
         else:
-            icon_key(ax, sx + 0.02, yc, 0.17, col)
-        tx = x0 + 1.0
-        P.text(tx, yc + 0.02, num, size=30, family=NUM, color=tcol, ha="left", va="baseline")
-        P.text(tx, yc - 0.30, cap, size=16, color=INK, ha="left", va="baseline")
-        if k:
-            mx = (xs[k - 1] + x) / 2
-            ax.plot([mx, mx], [yc - 0.42, yc + 0.42], color=GOLD_INNER, linewidth=0.8, zorder=26)
-            diamond(ax, mx, yc + 0.48, 0.04, GOLD_INNER)
-            diamond(ax, mx, yc - 0.48, 0.04, GOLD_INNER)
+            wax_seal(ax, x, ys, r, CLEAN, CLEAN_FILL)
+    P.text(cx0, P.Y(4.60), "Ten agents. Three doors. One rule: don't touch what isn't yours.", size=16,
+           color=INK, ha="center", va="baseline", style="italic")
     P.save("cover.png")
 
 
