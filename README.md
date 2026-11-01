@@ -1,4 +1,4 @@
-# DriftBench: Benchmarking LLMs on Fact Drift, Decoy Immunity, and Minimal Safe Edits
+# BOUNDARY: Benchmarking LLMs on Fact Drift, Decoy Immunity, and Minimal Safe Edits
 
 [![Tests](https://img.shields.io/badge/pytest-12%20passed-brightgreen.svg)]()
 [![Kaggle Benchmarks](https://img.shields.io/badge/kaggle--benchmarks-v0.6.1-blue.svg)]()
