@@ -1,0 +1,1898 @@
+{
+  "report/build_data.py": {
+    "mtime": 1791561043.8731236,
+    "seen": 1793555772.7053697,
+    "ast_hash": "c1e400a918f2837ba2b3f417bfd97d2a",
+    "semantic_hash": "c1e400a918f2837ba2b3f417bfd97d2a"
+  },
+  "report/make_blog_figures.py": {
+    "mtime": 1791561118.1531632,
+    "seen": 1793555772.7053754,
+    "ast_hash": "94704b9138fe3e4ddc840973e16be0a1",
+    "semantic_hash": "94704b9138fe3e4ddc840973e16be0a1"
+  },
+  "report/make_blog_illustrations.py": {
+    "mtime": 1791579709.690115,
+    "seen": 1793555772.7053778,
+    "ast_hash": "900346c4ad00649848a1869eb2194309",
+    "semantic_hash": "900346c4ad00649848a1869eb2194309"
+  },
+  "report/make_figures.py": {
+    "mtime": 1791450995.6668713,
+    "seen": 1793555772.7053792,
+    "ast_hash": "ca3a78905326c4a26efd75b7290c45cf",
+    "semantic_hash": "ca3a78905326c4a26efd75b7290c45cf"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/claude-opus-5-5-default/4536138/boundary-v3-t01-month-end-total-run_id_Run_1_anthropic_claude-opus-5-5default.atif.json": {
+    "mtime": 1791450369.3025763,
+    "seen": 1793555772.7053807,
+    "ast_hash": "c11214058fd5ea9819727b2e738956b9",
+    "semantic_hash": "c11214058fd5ea9819727b2e738956b9"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/claude-opus-5-5-default/4536138/boundary-v3-t01-month-end-total-run_id_Run_1_anthropic_claude-opus-5-5default.result.json": {
+    "mtime": 1791450369.3025763,
+    "seen": 1793555772.7053814,
+    "ast_hash": "0ddd4c9a4d9f4b61c40ec7d1897bc242",
+    "semantic_hash": "0ddd4c9a4d9f4b61c40ec7d1897bc242"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/claude-opus-5-5-default/4536138/outputs/T01v3/claude-opus-5-5-default-T01v3-CLOSED-R01.json": {
+    "mtime": 1791450369.3095784,
+    "seen": 1793555772.7053826,
+    "ast_hash": "600ffea1e9220f32ed6723345eaba63c",
+    "semantic_hash": "600ffea1e9220f32ed6723345eaba63c"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/claude-opus-5-5-default/4536138/outputs/T01v3/claude-opus-5-5-default-T01v3-OPEN-R01.json": {
+    "mtime": 1791450369.3095784,
+    "seen": 1793555772.7053838,
+    "ast_hash": "12d52a296894489e541124d0dd9a925e",
+    "semantic_hash": "12d52a296894489e541124d0dd9a925e"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/claude-opus-5-5-default/4536138/outputs/T01v3/claude-opus-5-5-default-T01v3-TASK-R01.json": {
+    "mtime": 1791450369.3095784,
+    "seen": 1793555772.7053845,
+    "ast_hash": "126fbff8e0e409c693eef259746ed56c",
+    "semantic_hash": "126fbff8e0e409c693eef259746ed56c"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/claude-sonnet-5-5-default/4536140/boundary-v3-t01-month-end-total-run_id_Run_1_anthropic_claude-sonnet-5-5default.atif.json": {
+    "mtime": 1791450367.340285,
+    "seen": 1793555772.7053854,
+    "ast_hash": "4970aa915b8f281c8aeaec81e15b7577",
+    "semantic_hash": "4970aa915b8f281c8aeaec81e15b7577"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/claude-sonnet-5-5-default/4536140/boundary-v3-t01-month-end-total-run_id_Run_1_anthropic_claude-sonnet-5-5default.result.json": {
+    "mtime": 1791450367.340285,
+    "seen": 1793555772.7053864,
+    "ast_hash": "ce5f814903a65c60b79442ce951ddd18",
+    "semantic_hash": "ce5f814903a65c60b79442ce951ddd18"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/claude-sonnet-5-5-default/4536140/outputs/T01v3/claude-sonnet-5-5-default-T01v3-CLOSED-R01.json": {
+    "mtime": 1791450367.341855,
+    "seen": 1793555772.7053876,
+    "ast_hash": "15bf25a33ce2f4f22ab274b3d971b7ab",
+    "semantic_hash": "15bf25a33ce2f4f22ab274b3d971b7ab"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/claude-sonnet-5-5-default/4536140/outputs/T01v3/claude-sonnet-5-5-default-T01v3-OPEN-R01.json": {
+    "mtime": 1791450367.3424995,
+    "seen": 1793555772.7053885,
+    "ast_hash": "e6d43497688fcab40cbc6d44123d8e4d",
+    "semantic_hash": "e6d43497688fcab40cbc6d44123d8e4d"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/claude-sonnet-5-5-default/4536140/outputs/T01v3/claude-sonnet-5-5-default-T01v3-TASK-R01.json": {
+    "mtime": 1791450367.3431118,
+    "seen": 1793555772.7053893,
+    "ast_hash": "9f0ecc7435afd278c8f76dc58cc5153f",
+    "semantic_hash": "9f0ecc7435afd278c8f76dc58cc5153f"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.1-pro-preview/4536134/boundary-v3-t01-month-end-total-run_id_Run_1_google_gemini-3.1-pro-preview.atif.json": {
+    "mtime": 1791450373.8718889,
+    "seen": 1793555772.70539,
+    "ast_hash": "a9627cd4855c827c3e092f3d9a44fe0c",
+    "semantic_hash": "a9627cd4855c827c3e092f3d9a44fe0c"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.1-pro-preview/4536134/boundary-v3-t01-month-end-total-run_id_Run_1_google_gemini-3.1-pro-preview.result.json": {
+    "mtime": 1791450373.8718889,
+    "seen": 1793555772.7053912,
+    "ast_hash": "46218abb1d06a08f1a9cddcdcac39abc",
+    "semantic_hash": "46218abb1d06a08f1a9cddcdcac39abc"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.1-pro-preview/4536134/outputs/T01v3/gemini-3.1-pro-preview-T01v3-CLOSED-R01.json": {
+    "mtime": 1791450373.8784368,
+    "seen": 1793555772.7053921,
+    "ast_hash": "4ffc52ec2fb282c35cfe0d03be41a164",
+    "semantic_hash": "4ffc52ec2fb282c35cfe0d03be41a164"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.1-pro-preview/4536134/outputs/T01v3/gemini-3.1-pro-preview-T01v3-OPEN-R01.json": {
+    "mtime": 1791450373.8789508,
+    "seen": 1793555772.7053928,
+    "ast_hash": "aedf5c491d2e8890758c9463469aacc1",
+    "semantic_hash": "aedf5c491d2e8890758c9463469aacc1"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.1-pro-preview/4536134/outputs/T01v3/gemini-3.1-pro-preview-T01v3-TASK-R01.json": {
+    "mtime": 1791450373.8789508,
+    "seen": 1793555772.7053943,
+    "ast_hash": "cab006a0f4d5e9a38326008b6dbc751f",
+    "semantic_hash": "cab006a0f4d5e9a38326008b6dbc751f"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.7-flash/4535033/boundary-v3-t01-month-end-total-run_id_Run_1_google_gemini-3.7-flash.atif.json": {
+    "mtime": 1791450374.9845817,
+    "seen": 1793555772.7053952,
+    "ast_hash": "f53a8f9afd79441e21bf5e603a87291e",
+    "semantic_hash": "f53a8f9afd79441e21bf5e603a87291e"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.7-flash/4535033/boundary-v3-t01-month-end-total-run_id_Run_1_google_gemini-3.7-flash.result.json": {
+    "mtime": 1791450374.9845817,
+    "seen": 1793555772.705396,
+    "ast_hash": "edeb03480642e19be80362d44769a9f6",
+    "semantic_hash": "edeb03480642e19be80362d44769a9f6"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.7-flash/4535033/outputs/T01v3/gemini-3.7-flash-T01v3-CLOSED-R01.json": {
+    "mtime": 1791450374.9907632,
+    "seen": 1793555772.705397,
+    "ast_hash": "2af85f67a544f10d39da582638376170",
+    "semantic_hash": "2af85f67a544f10d39da582638376170"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.7-flash/4535033/outputs/T01v3/gemini-3.7-flash-T01v3-OPEN-R01.json": {
+    "mtime": 1791450374.991299,
+    "seen": 1793555772.7053983,
+    "ast_hash": "19f3f06a8fd5f6b718f9c516a3c680db",
+    "semantic_hash": "19f3f06a8fd5f6b718f9c516a3c680db"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.7-flash/4535033/outputs/T01v3/gemini-3.7-flash-T01v3-TASK-R01.json": {
+    "mtime": 1791450374.991299,
+    "seen": 1793555772.7053993,
+    "ast_hash": "36b81472d3c90137ab0f711d3db6323a",
+    "semantic_hash": "36b81472d3c90137ab0f711d3db6323a"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.8-flash/4536144/boundary-v3-t01-month-end-total-run_id_Run_1_google_gemini-3.8-flash.atif.json": {
+    "mtime": 1791450364.5304894,
+    "seen": 1793555772.7054002,
+    "ast_hash": "032ce69b63adac8e7c81a9dab3cfc096",
+    "semantic_hash": "032ce69b63adac8e7c81a9dab3cfc096"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.8-flash/4536144/boundary-v3-t01-month-end-total-run_id_Run_1_google_gemini-3.8-flash.result.json": {
+    "mtime": 1791450364.5304894,
+    "seen": 1793555772.7054012,
+    "ast_hash": "f1d5b70019f9db140ae616775035662e",
+    "semantic_hash": "f1d5b70019f9db140ae616775035662e"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.8-flash/4536144/outputs/T01v3/gemini-3.8-flash-T01v3-CLOSED-R01.json": {
+    "mtime": 1791450364.532134,
+    "seen": 1793555772.7054021,
+    "ast_hash": "1a1b7792e7559efb5da2010a287b0a03",
+    "semantic_hash": "1a1b7792e7559efb5da2010a287b0a03"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.8-flash/4536144/outputs/T01v3/gemini-3.8-flash-T01v3-OPEN-R01.json": {
+    "mtime": 1791450364.533344,
+    "seen": 1793555772.705403,
+    "ast_hash": "912327716f842416159b7bda204b4af7",
+    "semantic_hash": "912327716f842416159b7bda204b4af7"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemini-3.8-flash/4536144/outputs/T01v3/gemini-3.8-flash-T01v3-TASK-R01.json": {
+    "mtime": 1791450364.533344,
+    "seen": 1793555772.7054038,
+    "ast_hash": "2dfb16e3c8b9d20accb389f03e383a3a",
+    "semantic_hash": "2dfb16e3c8b9d20accb389f03e383a3a"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemma-4-31b-it/4536136/boundary-v3-t01-month-end-total-run_id_Run_1_google_gemma-4-31b.atif.json": {
+    "mtime": 1791450371.1539772,
+    "seen": 1793555772.705405,
+    "ast_hash": "e73651479bd84f44805d425dcdfd6bd9",
+    "semantic_hash": "e73651479bd84f44805d425dcdfd6bd9"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemma-4-31b-it/4536136/boundary-v3-t01-month-end-total-run_id_Run_1_google_gemma-4-31b.result.json": {
+    "mtime": 1791450371.1559834,
+    "seen": 1793555772.705406,
+    "ast_hash": "359132db29db7ad52cc248042666d3b0",
+    "semantic_hash": "359132db29db7ad52cc248042666d3b0"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemma-4-31b-it/4536136/outputs/T01v3/gemma-4-31b-T01v3-CLOSED-R01.json": {
+    "mtime": 1791450371.1579916,
+    "seen": 1793555772.7054067,
+    "ast_hash": "b8a825b79f18cd567970f3be1b206d54",
+    "semantic_hash": "b8a825b79f18cd567970f3be1b206d54"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemma-4-31b-it/4536136/outputs/T01v3/gemma-4-31b-T01v3-OPEN-R01.json": {
+    "mtime": 1791450371.1579916,
+    "seen": 1793555772.705408,
+    "ast_hash": "45db2c22abf940e0198221b6225559d6",
+    "semantic_hash": "45db2c22abf940e0198221b6225559d6"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gemma-4-31b-it/4536136/outputs/T01v3/gemma-4-31b-T01v3-TASK-R01.json": {
+    "mtime": 1791450371.1579916,
+    "seen": 1793555772.705409,
+    "ast_hash": "3753bc101ee283be10ff7a688fb15139",
+    "semantic_hash": "3753bc101ee283be10ff7a688fb15139"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/glm-5/4536135/boundary-v3-t01-month-end-total-run_id_Run_1_zai_glm-5.atif.json": {
+    "mtime": 1791450371.9537964,
+    "seen": 1793555772.70541,
+    "ast_hash": "3394e0b940510f2b5d8f3255362808e7",
+    "semantic_hash": "3394e0b940510f2b5d8f3255362808e7"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/glm-5/4536135/boundary-v3-t01-month-end-total-run_id_Run_1_zai_glm-5.result.json": {
+    "mtime": 1791450371.9537964,
+    "seen": 1793555772.7054107,
+    "ast_hash": "c5075022ac7ba3d52bee060ed25a69ea",
+    "semantic_hash": "c5075022ac7ba3d52bee060ed25a69ea"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/glm-5/4536135/outputs/T01v3/glm-5-T01v3-CLOSED-R01.json": {
+    "mtime": 1791450371.9558024,
+    "seen": 1793555772.7054121,
+    "ast_hash": "df9faa578e3588d2a862dce8ca570e55",
+    "semantic_hash": "df9faa578e3588d2a862dce8ca570e55"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/glm-5/4536135/outputs/T01v3/glm-5-T01v3-OPEN-R01.json": {
+    "mtime": 1791450371.9558024,
+    "seen": 1793555772.705413,
+    "ast_hash": "31ffc3e1fd548b1c28b19b1fc63152d7",
+    "semantic_hash": "31ffc3e1fd548b1c28b19b1fc63152d7"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/glm-5/4536135/outputs/T01v3/glm-5-T01v3-TASK-R01.json": {
+    "mtime": 1791450371.9570742,
+    "seen": 1793555772.7054138,
+    "ast_hash": "7db7101dd094eed78c70ba84104c090e",
+    "semantic_hash": "7db7101dd094eed78c70ba84104c090e"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-astra/4536137/boundary-v3-t01-month-end-total-run_id_Run_1_openai_gpt-6-astra.atif.json": {
+    "mtime": 1791450370.0315447,
+    "seen": 1793555772.7054152,
+    "ast_hash": "2d4aad87a8640138edc559b9391cb547",
+    "semantic_hash": "2d4aad87a8640138edc559b9391cb547"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-astra/4536137/boundary-v3-t01-month-end-total-run_id_Run_1_openai_gpt-6-astra.result.json": {
+    "mtime": 1791450370.0315447,
+    "seen": 1793555772.7054162,
+    "ast_hash": "0fe93c280017ecd37f1a24b4e6e96db6",
+    "semantic_hash": "0fe93c280017ecd37f1a24b4e6e96db6"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-astra/4536137/outputs/T01v3/gpt-6-astra-T01v3-CLOSED-R01.json": {
+    "mtime": 1791450370.034189,
+    "seen": 1793555772.7054172,
+    "ast_hash": "3f24333965b5527935f081e1bc6bb68a",
+    "semantic_hash": "3f24333965b5527935f081e1bc6bb68a"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-astra/4536137/outputs/T01v3/gpt-6-astra-T01v3-TASK-R01.json": {
+    "mtime": 1791450370.0351887,
+    "seen": 1793555772.7054183,
+    "ast_hash": "3a574ffbe335e1c319e11dbcc01d471c",
+    "semantic_hash": "3a574ffbe335e1c319e11dbcc01d471c"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-astra/4595537/boundary-v3-t01-month-end-total-run_id_Run_1_openai_gpt-6-astra.atif.json": {
+    "mtime": 1791532665.1942415,
+    "seen": 1793555772.7054198,
+    "ast_hash": "e0e5a40a15072c8d2f56bce614f440a9",
+    "semantic_hash": "e0e5a40a15072c8d2f56bce614f440a9"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-astra/4595537/boundary-v3-t01-month-end-total-run_id_Run_1_openai_gpt-6-astra.result.json": {
+    "mtime": 1791532665.1942415,
+    "seen": 1793555772.7054207,
+    "ast_hash": "f383fbffda8addeaec44dd32c43e6d8b",
+    "semantic_hash": "f383fbffda8addeaec44dd32c43e6d8b"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-astra/4595537/outputs/T01v3/gpt-6-astra-T01v3-CLOSED-R01.json": {
+    "mtime": 1791532665.1977584,
+    "seen": 1793555772.705422,
+    "ast_hash": "5f2544d1308cfb660d487775cd22d3fb",
+    "semantic_hash": "5f2544d1308cfb660d487775cd22d3fb"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-astra/4595537/outputs/T01v3/gpt-6-astra-T01v3-OPEN-R01.json": {
+    "mtime": 1791532665.1977584,
+    "seen": 1793555772.7054226,
+    "ast_hash": "a9d9d55d51e089e5d91a046469b30932",
+    "semantic_hash": "a9d9d55d51e089e5d91a046469b30932"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-astra/4595537/outputs/T01v3/gpt-6-astra-T01v3-TASK-R01.json": {
+    "mtime": 1791532665.1987655,
+    "seen": 1793555772.7054234,
+    "ast_hash": "5a2d57403b6db9d3a39f91edd80e5def",
+    "semantic_hash": "5a2d57403b6db9d3a39f91edd80e5def"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-luna/4536139/boundary-v3-t01-month-end-total-run_id_Run_1_openai_gpt-6-luna.atif.json": {
+    "mtime": 1791450368.2227943,
+    "seen": 1793555772.705424,
+    "ast_hash": "07bb62c89f021d18c4715bea52dc65e4",
+    "semantic_hash": "07bb62c89f021d18c4715bea52dc65e4"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-luna/4536139/boundary-v3-t01-month-end-total-run_id_Run_1_openai_gpt-6-luna.result.json": {
+    "mtime": 1791450368.223329,
+    "seen": 1793555772.7054253,
+    "ast_hash": "5799026f2981c5ca7e5b4aca56830fff",
+    "semantic_hash": "5799026f2981c5ca7e5b4aca56830fff"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-luna/4536139/outputs/T01v3/gpt-6-luna-T01v3-CLOSED-R01.json": {
+    "mtime": 1791450368.2238603,
+    "seen": 1793555772.7054262,
+    "ast_hash": "97c502c89340b89c2e61b4747b3edcda",
+    "semantic_hash": "97c502c89340b89c2e61b4747b3edcda"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-luna/4536139/outputs/T01v3/gpt-6-luna-T01v3-OPEN-R01.json": {
+    "mtime": 1791450368.2238603,
+    "seen": 1793555772.7054272,
+    "ast_hash": "40ea80fc22ce2a7684e5f056943757ea",
+    "semantic_hash": "40ea80fc22ce2a7684e5f056943757ea"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6-luna/4536139/outputs/T01v3/gpt-6-luna-T01v3-TASK-R01.json": {
+    "mtime": 1791450368.2261164,
+    "seen": 1793555772.705428,
+    "ast_hash": "146c2089c8c8c01511b75cb99c6c87f9",
+    "semantic_hash": "146c2089c8c8c01511b75cb99c6c87f9"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6.1-sol/4536142/boundary-v3-t01-month-end-total-run_id_Run_1_openai_gpt-6.1-sol.atif.json": {
+    "mtime": 1791450365.9951215,
+    "seen": 1793555772.705429,
+    "ast_hash": "bb0208f9629e99732765742a93c076e3",
+    "semantic_hash": "bb0208f9629e99732765742a93c076e3"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6.1-sol/4536142/boundary-v3-t01-month-end-total-run_id_Run_1_openai_gpt-6.1-sol.result.json": {
+    "mtime": 1791450365.9951215,
+    "seen": 1793555772.7054298,
+    "ast_hash": "ace27981dd13261942ffa723ffbc5cdc",
+    "semantic_hash": "ace27981dd13261942ffa723ffbc5cdc"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6.1-sol/4536142/outputs/T01v3/gpt-6.1-sol-T01v3-CLOSED-R01.json": {
+    "mtime": 1791450365.9961183,
+    "seen": 1793555772.7054307,
+    "ast_hash": "f08f0a7e4e06a80e01d02c9b12fd1c35",
+    "semantic_hash": "f08f0a7e4e06a80e01d02c9b12fd1c35"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6.1-sol/4536142/outputs/T01v3/gpt-6.1-sol-T01v3-OPEN-R01.json": {
+    "mtime": 1791450365.9971168,
+    "seen": 1793555772.7054317,
+    "ast_hash": "6f4a357b23f9d9ea06654128b7c3d14a",
+    "semantic_hash": "6f4a357b23f9d9ea06654128b7c3d14a"
+  },
+  "report/raw/boundary-v3-t01-month-end-total/1/gpt-6.1-sol/4536142/outputs/T01v3/gpt-6.1-sol-T01v3-TASK-R01.json": {
+    "mtime": 1791450365.9971168,
+    "seen": 1793555772.7054327,
+    "ast_hash": "0eef34ab3b2fc5d231fa56c5be0f53ea",
+    "semantic_hash": "0eef34ab3b2fc5d231fa56c5be0f53ea"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/claude-opus-5-5-default/4536151/boundary-v3-t05-escalation-report-run_id_Run_1_anthropic_claude-opus-5-5default.atif.json": {
+    "mtime": 1791450387.9153554,
+    "seen": 1793555772.7054338,
+    "ast_hash": "45de5bb1b71b69da1093fcbd524d2bf2",
+    "semantic_hash": "45de5bb1b71b69da1093fcbd524d2bf2"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/claude-opus-5-5-default/4536151/boundary-v3-t05-escalation-report-run_id_Run_1_anthropic_claude-opus-5-5default.result.json": {
+    "mtime": 1791450387.9153554,
+    "seen": 1793555772.7054346,
+    "ast_hash": "593c5dbcf8e68f35116d236f2b92327d",
+    "semantic_hash": "593c5dbcf8e68f35116d236f2b92327d"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/claude-opus-5-5-default/4536151/outputs/T05v3/claude-opus-5-5-default-T05v3-CLOSED-R01.json": {
+    "mtime": 1791450387.9194455,
+    "seen": 1793555772.7054358,
+    "ast_hash": "8c77634e7279c42d301affa059480d2c",
+    "semantic_hash": "8c77634e7279c42d301affa059480d2c"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/claude-opus-5-5-default/4536151/outputs/T05v3/claude-opus-5-5-default-T05v3-OPEN-R01.json": {
+    "mtime": 1791450387.9194455,
+    "seen": 1793555772.7054367,
+    "ast_hash": "58cb76a927948cd58d48d5281dd0eefa",
+    "semantic_hash": "58cb76a927948cd58d48d5281dd0eefa"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/claude-opus-5-5-default/4536151/outputs/T05v3/claude-opus-5-5-default-T05v3-TASK-R01.json": {
+    "mtime": 1791450387.9203784,
+    "seen": 1793555772.7054377,
+    "ast_hash": "a351b6557c5a0141d666777be553d499",
+    "semantic_hash": "a351b6557c5a0141d666777be553d499"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/claude-sonnet-5-5-default/4536157/boundary-v3-t05-escalation-report-run_id_Run_1_anthropic_claude-sonnet-5-5default.atif.json": {
+    "mtime": 1791450385.3963134,
+    "seen": 1793555772.7054386,
+    "ast_hash": "1f45b34bd1964126dfba07b46a2484ef",
+    "semantic_hash": "1f45b34bd1964126dfba07b46a2484ef"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/claude-sonnet-5-5-default/4536157/boundary-v3-t05-escalation-report-run_id_Run_1_anthropic_claude-sonnet-5-5default.result.json": {
+    "mtime": 1791450385.3963134,
+    "seen": 1793555772.7054396,
+    "ast_hash": "4cae323ebb7c76fc856aab9c87fd37bf",
+    "semantic_hash": "4cae323ebb7c76fc856aab9c87fd37bf"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/claude-sonnet-5-5-default/4536157/outputs/T05v3/claude-sonnet-5-5-default-T05v3-CLOSED-R01.json": {
+    "mtime": 1791450385.399606,
+    "seen": 1793555772.7054405,
+    "ast_hash": "081e499e6c9f57f4e3b9c7970a5650ad",
+    "semantic_hash": "081e499e6c9f57f4e3b9c7970a5650ad"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/claude-sonnet-5-5-default/4536157/outputs/T05v3/claude-sonnet-5-5-default-T05v3-OPEN-R01.json": {
+    "mtime": 1791450385.4005618,
+    "seen": 1793555772.7054412,
+    "ast_hash": "0bb87cbbab8e3610fdcd251e4296f9e4",
+    "semantic_hash": "0bb87cbbab8e3610fdcd251e4296f9e4"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/claude-sonnet-5-5-default/4536157/outputs/T05v3/claude-sonnet-5-5-default-T05v3-TASK-R01.json": {
+    "mtime": 1791450385.4005618,
+    "seen": 1793555772.7054422,
+    "ast_hash": "f1a176ec679ee7e27e0b5699c2cc771e",
+    "semantic_hash": "f1a176ec679ee7e27e0b5699c2cc771e"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.1-pro-preview/4536141/boundary-v3-t05-escalation-report-run_id_Run_1_google_gemini-3.1-pro-preview.atif.json": {
+    "mtime": 1791450392.0473666,
+    "seen": 1793555772.7054434,
+    "ast_hash": "eb66e8320f08569f35c646cb83c3c334",
+    "semantic_hash": "eb66e8320f08569f35c646cb83c3c334"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.1-pro-preview/4536141/boundary-v3-t05-escalation-report-run_id_Run_1_google_gemini-3.1-pro-preview.result.json": {
+    "mtime": 1791450392.0483782,
+    "seen": 1793555772.705444,
+    "ast_hash": "ebc53d4ff303cd8397ff04d4818a8410",
+    "semantic_hash": "ebc53d4ff303cd8397ff04d4818a8410"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.1-pro-preview/4536141/outputs/T05v3/gemini-3.1-pro-preview-T05v3-CLOSED-R01.json": {
+    "mtime": 1791450392.0483782,
+    "seen": 1793555772.705445,
+    "ast_hash": "cc94a739a96b99f2095bc1149b6178bf",
+    "semantic_hash": "cc94a739a96b99f2095bc1149b6178bf"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.1-pro-preview/4536141/outputs/T05v3/gemini-3.1-pro-preview-T05v3-OPEN-R01.json": {
+    "mtime": 1791450392.0483782,
+    "seen": 1793555772.705446,
+    "ast_hash": "a2a4f278b1fc22b1ecfa53b5ef5cd663",
+    "semantic_hash": "a2a4f278b1fc22b1ecfa53b5ef5cd663"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.1-pro-preview/4536141/outputs/T05v3/gemini-3.1-pro-preview-T05v3-TASK-R01.json": {
+    "mtime": 1791450392.0483782,
+    "seen": 1793555772.705447,
+    "ast_hash": "6a0056b389219625a89be7a0207bc63c",
+    "semantic_hash": "6a0056b389219625a89be7a0207bc63c"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.7-flash/4535178/boundary-v3-t05-escalation-report-run_id_Run_1_google_gemini-3.7-flash.atif.json": {
+    "mtime": 1791450393.1398733,
+    "seen": 1793555772.7054477,
+    "ast_hash": "a4122bd8db4823bd716f0c74a048051e",
+    "semantic_hash": "a4122bd8db4823bd716f0c74a048051e"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.7-flash/4535178/boundary-v3-t05-escalation-report-run_id_Run_1_google_gemini-3.7-flash.result.json": {
+    "mtime": 1791450393.1398733,
+    "seen": 1793555772.7054486,
+    "ast_hash": "be4a68fbc98fae17ee05846bbbad51f3",
+    "semantic_hash": "be4a68fbc98fae17ee05846bbbad51f3"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.7-flash/4535178/outputs/T05v3/gemini-3.7-flash-T05v3-CLOSED-R01.json": {
+    "mtime": 1791450393.1483736,
+    "seen": 1793555772.7054496,
+    "ast_hash": "d2dd8b49d2c4d8c02f55886f89d5ba88",
+    "semantic_hash": "d2dd8b49d2c4d8c02f55886f89d5ba88"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.7-flash/4535178/outputs/T05v3/gemini-3.7-flash-T05v3-OPEN-R01.json": {
+    "mtime": 1791450393.1483736,
+    "seen": 1793555772.7054503,
+    "ast_hash": "826b7784c867814e98eaf25cdc7f60f1",
+    "semantic_hash": "826b7784c867814e98eaf25cdc7f60f1"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.7-flash/4535178/outputs/T05v3/gemini-3.7-flash-T05v3-TASK-R01.json": {
+    "mtime": 1791450393.1483736,
+    "seen": 1793555772.705451,
+    "ast_hash": "297627bb63524c6c90cd537ed9820d22",
+    "semantic_hash": "297627bb63524c6c90cd537ed9820d22"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.8-flash/4536165/boundary-v3-t05-escalation-report-run_id_Run_1_google_gemini-3.8-flash.atif.json": {
+    "mtime": 1791450383.5775373,
+    "seen": 1793555772.705452,
+    "ast_hash": "7a56fdb4611a7f88bc8d600a4becdfaf",
+    "semantic_hash": "7a56fdb4611a7f88bc8d600a4becdfaf"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.8-flash/4536165/boundary-v3-t05-escalation-report-run_id_Run_1_google_gemini-3.8-flash.result.json": {
+    "mtime": 1791450383.5775373,
+    "seen": 1793555772.7054534,
+    "ast_hash": "42df24d7581b425c923648f337d115e0",
+    "semantic_hash": "42df24d7581b425c923648f337d115e0"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.8-flash/4536165/outputs/T05v3/gemini-3.8-flash-T05v3-CLOSED-R01.json": {
+    "mtime": 1791450383.5815518,
+    "seen": 1793555772.705454,
+    "ast_hash": "d8bd84571b4f56472d397328f0104eec",
+    "semantic_hash": "d8bd84571b4f56472d397328f0104eec"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.8-flash/4536165/outputs/T05v3/gemini-3.8-flash-T05v3-OPEN-R01.json": {
+    "mtime": 1791450383.5815518,
+    "seen": 1793555772.7054553,
+    "ast_hash": "876eb2bc297f1c931281c0a20933e197",
+    "semantic_hash": "876eb2bc297f1c931281c0a20933e197"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemini-3.8-flash/4536165/outputs/T05v3/gemini-3.8-flash-T05v3-TASK-R01.json": {
+    "mtime": 1791450383.5815518,
+    "seen": 1793555772.705456,
+    "ast_hash": "5dced1e68572a08f7a2cc0f9930d8bd4",
+    "semantic_hash": "5dced1e68572a08f7a2cc0f9930d8bd4"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemma-4-31b-it/4536146/boundary-v3-t05-escalation-report-run_id_Run_1_google_gemma-4-31b.atif.json": {
+    "mtime": 1791450390.027301,
+    "seen": 1793555772.7054572,
+    "ast_hash": "4375cf8170f3cd7b8f9541fc9929022d",
+    "semantic_hash": "4375cf8170f3cd7b8f9541fc9929022d"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemma-4-31b-it/4536146/boundary-v3-t05-escalation-report-run_id_Run_1_google_gemma-4-31b.result.json": {
+    "mtime": 1791450390.027301,
+    "seen": 1793555772.7054582,
+    "ast_hash": "93ad313135229000855935e471bc3f82",
+    "semantic_hash": "93ad313135229000855935e471bc3f82"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemma-4-31b-it/4536146/outputs/T05v3/gemma-4-31b-T05v3-CLOSED-R01.json": {
+    "mtime": 1791450390.027301,
+    "seen": 1793555772.7054589,
+    "ast_hash": "23e6af801392db5c170f90db2b489a05",
+    "semantic_hash": "23e6af801392db5c170f90db2b489a05"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemma-4-31b-it/4536146/outputs/T05v3/gemma-4-31b-T05v3-OPEN-R01.json": {
+    "mtime": 1791450390.027301,
+    "seen": 1793555772.7054605,
+    "ast_hash": "b995b72ff0d3b656b97d187a12d88578",
+    "semantic_hash": "b995b72ff0d3b656b97d187a12d88578"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gemma-4-31b-it/4536146/outputs/T05v3/gemma-4-31b-T05v3-TASK-R01.json": {
+    "mtime": 1791450390.027301,
+    "seen": 1793555772.7054613,
+    "ast_hash": "57271b67df816639143550268ec3a4bc",
+    "semantic_hash": "57271b67df816639143550268ec3a4bc"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/glm-5/4536143/boundary-v3-t05-escalation-report-run_id_Run_1_zai_glm-5.atif.json": {
+    "mtime": 1791450390.848369,
+    "seen": 1793555772.705462,
+    "ast_hash": "f6b0ed147f5a1c72627b3acf3825d433",
+    "semantic_hash": "f6b0ed147f5a1c72627b3acf3825d433"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/glm-5/4536143/boundary-v3-t05-escalation-report-run_id_Run_1_zai_glm-5.result.json": {
+    "mtime": 1791450390.848369,
+    "seen": 1793555772.7054627,
+    "ast_hash": "ea05d7d10b032b539ddc90c675ea4af3",
+    "semantic_hash": "ea05d7d10b032b539ddc90c675ea4af3"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/glm-5/4536143/outputs/T05v3/glm-5-T05v3-CLOSED-R01.json": {
+    "mtime": 1791450390.848369,
+    "seen": 1793555772.705464,
+    "ast_hash": "918ab564c2acb2474481f71857c76ac2",
+    "semantic_hash": "918ab564c2acb2474481f71857c76ac2"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/glm-5/4536143/outputs/T05v3/glm-5-T05v3-OPEN-R01.json": {
+    "mtime": 1791450390.848369,
+    "seen": 1793555772.7054646,
+    "ast_hash": "4671f8c5b07ecf85b5a2d93df3a550ee",
+    "semantic_hash": "4671f8c5b07ecf85b5a2d93df3a550ee"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/glm-5/4536143/outputs/T05v3/glm-5-T05v3-TASK-R01.json": {
+    "mtime": 1791450390.848369,
+    "seen": 1793555772.7054653,
+    "ast_hash": "060119cc0b9ab62664fa77d2cf55694c",
+    "semantic_hash": "060119cc0b9ab62664fa77d2cf55694c"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6-astra/4536148/boundary-v3-t05-escalation-report-run_id_Run_1_openai_gpt-6-astra.atif.json": {
+    "mtime": 1791450389.216887,
+    "seen": 1793555772.705466,
+    "ast_hash": "c0bbee10a6ebb854f9edf0f1cac2764b",
+    "semantic_hash": "c0bbee10a6ebb854f9edf0f1cac2764b"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6-astra/4536148/boundary-v3-t05-escalation-report-run_id_Run_1_openai_gpt-6-astra.result.json": {
+    "mtime": 1791450389.216887,
+    "seen": 1793555772.705467,
+    "ast_hash": "be0437012a837d7fec2e9a6337fd26fd",
+    "semantic_hash": "be0437012a837d7fec2e9a6337fd26fd"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6-astra/4536148/outputs/T05v3/gpt-6-astra-T05v3-CLOSED-R01.json": {
+    "mtime": 1791450389.216887,
+    "seen": 1793555772.705468,
+    "ast_hash": "866e815a4f16b8acb0a9be379d8df363",
+    "semantic_hash": "866e815a4f16b8acb0a9be379d8df363"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6-astra/4536148/outputs/T05v3/gpt-6-astra-T05v3-OPEN-R01.json": {
+    "mtime": 1791450389.216887,
+    "seen": 1793555772.705469,
+    "ast_hash": "0bb487b1fb697831389c0ccb8a280165",
+    "semantic_hash": "0bb487b1fb697831389c0ccb8a280165"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6-astra/4536148/outputs/T05v3/gpt-6-astra-T05v3-TASK-R01.json": {
+    "mtime": 1791450389.216887,
+    "seen": 1793555772.7054696,
+    "ast_hash": "e4d40e2b130d124569646d302db006f2",
+    "semantic_hash": "e4d40e2b130d124569646d302db006f2"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6-luna/4536154/boundary-v3-t05-escalation-report-run_id_Run_1_openai_gpt-6-luna.atif.json": {
+    "mtime": 1791450386.9442647,
+    "seen": 1793555772.7054706,
+    "ast_hash": "6edadeb5a8ef215c3210d20e6365eded",
+    "semantic_hash": "6edadeb5a8ef215c3210d20e6365eded"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6-luna/4536154/boundary-v3-t05-escalation-report-run_id_Run_1_openai_gpt-6-luna.result.json": {
+    "mtime": 1791450386.9452674,
+    "seen": 1793555772.7054713,
+    "ast_hash": "20d38061bcb6219e3508cab1498cdd7b",
+    "semantic_hash": "20d38061bcb6219e3508cab1498cdd7b"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6-luna/4536154/outputs/T05v3/gpt-6-luna-T05v3-CLOSED-R01.json": {
+    "mtime": 1791450386.9482057,
+    "seen": 1793555772.705472,
+    "ast_hash": "95dee670d564f186f9d21af4ae3af660",
+    "semantic_hash": "95dee670d564f186f9d21af4ae3af660"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6-luna/4536154/outputs/T05v3/gpt-6-luna-T05v3-OPEN-R01.json": {
+    "mtime": 1791450386.9489965,
+    "seen": 1793555772.705473,
+    "ast_hash": "1db2f59d770a6686f79c12343129bacc",
+    "semantic_hash": "1db2f59d770a6686f79c12343129bacc"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6-luna/4536154/outputs/T05v3/gpt-6-luna-T05v3-TASK-R01.json": {
+    "mtime": 1791450386.9489965,
+    "seen": 1793555772.705474,
+    "ast_hash": "b1fd8526c9c491ef4a9914e61dc66b1f",
+    "semantic_hash": "b1fd8526c9c491ef4a9914e61dc66b1f"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6.1-sol/4536160/boundary-v3-t05-escalation-report-run_id_Run_1_openai_gpt-6.1-sol.atif.json": {
+    "mtime": 1791450384.5889726,
+    "seen": 1793555772.7054746,
+    "ast_hash": "31b2ee154a3bf5bb2dac7a3a7939adf9",
+    "semantic_hash": "31b2ee154a3bf5bb2dac7a3a7939adf9"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6.1-sol/4536160/boundary-v3-t05-escalation-report-run_id_Run_1_openai_gpt-6.1-sol.result.json": {
+    "mtime": 1791450384.5889726,
+    "seen": 1793555772.705475,
+    "ast_hash": "3ab52ed53931a58ae7d2c5dd8f5ffca7",
+    "semantic_hash": "3ab52ed53931a58ae7d2c5dd8f5ffca7"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6.1-sol/4536160/outputs/T05v3/gpt-6.1-sol-T05v3-CLOSED-R01.json": {
+    "mtime": 1791450384.5941613,
+    "seen": 1793555772.705476,
+    "ast_hash": "ff1075c790389a3e7ebaaaa2ac7e2df1",
+    "semantic_hash": "ff1075c790389a3e7ebaaaa2ac7e2df1"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6.1-sol/4536160/outputs/T05v3/gpt-6.1-sol-T05v3-OPEN-R01.json": {
+    "mtime": 1791450384.595158,
+    "seen": 1793555772.7054775,
+    "ast_hash": "6dd01bd97715b78962c3aa4e33665fcb",
+    "semantic_hash": "6dd01bd97715b78962c3aa4e33665fcb"
+  },
+  "report/raw/boundary-v3-t05-escalation-report/1/gpt-6.1-sol/4536160/outputs/T05v3/gpt-6.1-sol-T05v3-TASK-R01.json": {
+    "mtime": 1791450384.595158,
+    "seen": 1793555772.7054782,
+    "ast_hash": "8e0f011432dc43ab70a4f9de6bf8cacf",
+    "semantic_hash": "8e0f011432dc43ab70a4f9de6bf8cacf"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/claude-opus-5-5-default/4536164/boundary-v3-t08-issue-fix-run_id_Run_1_anthropic_claude-opus-5-5default.atif.json": {
+    "mtime": 1791450406.3783665,
+    "seen": 1793555772.705479,
+    "ast_hash": "a24f27b07b0dc78f53ccdeb3a9518b84",
+    "semantic_hash": "a24f27b07b0dc78f53ccdeb3a9518b84"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/claude-opus-5-5-default/4536164/boundary-v3-t08-issue-fix-run_id_Run_1_anthropic_claude-opus-5-5default.result.json": {
+    "mtime": 1791450406.3783665,
+    "seen": 1793555772.7054799,
+    "ast_hash": "8d0104efbb5d6ab5b3765d85afcf4b9d",
+    "semantic_hash": "8d0104efbb5d6ab5b3765d85afcf4b9d"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/claude-opus-5-5-default/4536164/outputs/T08v3/claude-opus-5-5-default-T08v3-CLOSED-R01.json": {
+    "mtime": 1791450406.3783665,
+    "seen": 1793555772.7054808,
+    "ast_hash": "4f914455748bcd6055196b20ec0b28bb",
+    "semantic_hash": "4f914455748bcd6055196b20ec0b28bb"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/claude-opus-5-5-default/4536164/outputs/T08v3/claude-opus-5-5-default-T08v3-OPEN-R01.json": {
+    "mtime": 1791450406.381382,
+    "seen": 1793555772.7054818,
+    "ast_hash": "2b93c57c146aa63e5a0bb9ff9d868bd5",
+    "semantic_hash": "2b93c57c146aa63e5a0bb9ff9d868bd5"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/claude-opus-5-5-default/4536164/outputs/T08v3/claude-opus-5-5-default-T08v3-TASK-R01.json": {
+    "mtime": 1791450406.3818974,
+    "seen": 1793555772.7054822,
+    "ast_hash": "6700b2fa23920fa411780b51c4809b9c",
+    "semantic_hash": "6700b2fa23920fa411780b51c4809b9c"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/claude-sonnet-5-5-default/4536169/boundary-v3-t08-issue-fix-run_id_Run_1_anthropic_claude-sonnet-5-5default.atif.json": {
+    "mtime": 1791450404.067044,
+    "seen": 1793555772.705483,
+    "ast_hash": "af60896f8d120e44e85788e1a5aa736e",
+    "semantic_hash": "af60896f8d120e44e85788e1a5aa736e"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/claude-sonnet-5-5-default/4536169/boundary-v3-t08-issue-fix-run_id_Run_1_anthropic_claude-sonnet-5-5default.result.json": {
+    "mtime": 1791450404.067044,
+    "seen": 1793555772.7054837,
+    "ast_hash": "31579cc50fb000241a3227cb9f7e6af6",
+    "semantic_hash": "31579cc50fb000241a3227cb9f7e6af6"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/claude-sonnet-5-5-default/4536169/outputs/T08v3/claude-sonnet-5-5-default-T08v3-CLOSED-R01.json": {
+    "mtime": 1791450404.069097,
+    "seen": 1793555772.7054849,
+    "ast_hash": "d9c6bd1f52fa4def856d3753a1c9d925",
+    "semantic_hash": "d9c6bd1f52fa4def856d3753a1c9d925"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/claude-sonnet-5-5-default/4536169/outputs/T08v3/claude-sonnet-5-5-default-T08v3-OPEN-R01.json": {
+    "mtime": 1791450404.069097,
+    "seen": 1793555772.7054856,
+    "ast_hash": "78fc56ae5be62f88248079e432c21f1f",
+    "semantic_hash": "78fc56ae5be62f88248079e432c21f1f"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/claude-sonnet-5-5-default/4536169/outputs/T08v3/claude-sonnet-5-5-default-T08v3-TASK-R01.json": {
+    "mtime": 1791450404.069097,
+    "seen": 1793555772.7054863,
+    "ast_hash": "7724b7c6e04ae0a078b30b79c7188fdd",
+    "semantic_hash": "7724b7c6e04ae0a078b30b79c7188fdd"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.1-pro-preview/4536149/boundary-v3-t08-issue-fix-run_id_Run_1_google_gemini-3.1-pro-preview.atif.json": {
+    "mtime": 1791450410.6300697,
+    "seen": 1793555772.7054873,
+    "ast_hash": "d339f2583692a754dd6c377a1460dec6",
+    "semantic_hash": "d339f2583692a754dd6c377a1460dec6"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.1-pro-preview/4536149/boundary-v3-t08-issue-fix-run_id_Run_1_google_gemini-3.1-pro-preview.result.json": {
+    "mtime": 1791450410.6300697,
+    "seen": 1793555772.7054882,
+    "ast_hash": "7dc62faca610774532ea77264829cc44",
+    "semantic_hash": "7dc62faca610774532ea77264829cc44"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.1-pro-preview/4536149/outputs/T08v3/gemini-3.1-pro-preview-T08v3-CLOSED-R01.json": {
+    "mtime": 1791450410.6331353,
+    "seen": 1793555772.7054894,
+    "ast_hash": "8f8bdd7444bb0ec19aaa364ce3d07d91",
+    "semantic_hash": "8f8bdd7444bb0ec19aaa364ce3d07d91"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.1-pro-preview/4536149/outputs/T08v3/gemini-3.1-pro-preview-T08v3-OPEN-R01.json": {
+    "mtime": 1791450410.6346836,
+    "seen": 1793555772.70549,
+    "ast_hash": "0704beb9eaa41fc466ccf3201f704eba",
+    "semantic_hash": "0704beb9eaa41fc466ccf3201f704eba"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.1-pro-preview/4536149/outputs/T08v3/gemini-3.1-pro-preview-T08v3-TASK-R01.json": {
+    "mtime": 1791450410.6346836,
+    "seen": 1793555772.7054913,
+    "ast_hash": "46a807514700d3b79ec65afc2f21b71c",
+    "semantic_hash": "46a807514700d3b79ec65afc2f21b71c"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.7-flash/4535417/boundary-v3-t08-issue-fix-run_id_Run_1_google_gemini-3.7-flash.atif.json": {
+    "mtime": 1791450411.9079418,
+    "seen": 1793555772.705492,
+    "ast_hash": "88621bba6e1c19053d4c043cb626b4e2",
+    "semantic_hash": "88621bba6e1c19053d4c043cb626b4e2"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.7-flash/4535417/boundary-v3-t08-issue-fix-run_id_Run_1_google_gemini-3.7-flash.result.json": {
+    "mtime": 1791450411.9079418,
+    "seen": 1793555772.7054927,
+    "ast_hash": "802f94941a16f18c91bd6e2c50d73d0f",
+    "semantic_hash": "802f94941a16f18c91bd6e2c50d73d0f"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.7-flash/4535417/outputs/T08v3/gemini-3.7-flash-T08v3-CLOSED-R01.json": {
+    "mtime": 1791450411.9104583,
+    "seen": 1793555772.7054937,
+    "ast_hash": "a8e25c37f7bd7a1b7f34e3971c3d6a33",
+    "semantic_hash": "a8e25c37f7bd7a1b7f34e3971c3d6a33"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.7-flash/4535417/outputs/T08v3/gemini-3.7-flash-T08v3-OPEN-R01.json": {
+    "mtime": 1791450411.9104583,
+    "seen": 1793555772.7054946,
+    "ast_hash": "abb4a684f7c700b66f3db25d1e8b990e",
+    "semantic_hash": "abb4a684f7c700b66f3db25d1e8b990e"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.7-flash/4535417/outputs/T08v3/gemini-3.7-flash-T08v3-TASK-R01.json": {
+    "mtime": 1791450411.9104583,
+    "seen": 1793555772.7054954,
+    "ast_hash": "94c3245257ee9d25aabcb6485697df37",
+    "semantic_hash": "94c3245257ee9d25aabcb6485697df37"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.8-flash/4536173/boundary-v3-t08-issue-fix-run_id_Run_1_google_gemini-3.8-flash.atif.json": {
+    "mtime": 1791450401.4991117,
+    "seen": 1793555772.705496,
+    "ast_hash": "67a5246d2ff0723ed00f18cac21d899a",
+    "semantic_hash": "67a5246d2ff0723ed00f18cac21d899a"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.8-flash/4536173/boundary-v3-t08-issue-fix-run_id_Run_1_google_gemini-3.8-flash.result.json": {
+    "mtime": 1791450401.4991117,
+    "seen": 1793555772.705497,
+    "ast_hash": "b230af5409cc5cdb2f4514fc59414939",
+    "semantic_hash": "b230af5409cc5cdb2f4514fc59414939"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.8-flash/4536173/outputs/T08v3/gemini-3.8-flash-T08v3-CLOSED-R01.json": {
+    "mtime": 1791450401.5020342,
+    "seen": 1793555772.7054977,
+    "ast_hash": "07f05a7f5904ae6904a41c358ff0bdaa",
+    "semantic_hash": "07f05a7f5904ae6904a41c358ff0bdaa"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.8-flash/4536173/outputs/T08v3/gemini-3.8-flash-T08v3-OPEN-R01.json": {
+    "mtime": 1791450401.5020342,
+    "seen": 1793555772.7054987,
+    "ast_hash": "67c9ca006375737911ee83ead6c8983f",
+    "semantic_hash": "67c9ca006375737911ee83ead6c8983f"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemini-3.8-flash/4536173/outputs/T08v3/gemini-3.8-flash-T08v3-TASK-R01.json": {
+    "mtime": 1791450401.5020342,
+    "seen": 1793555772.7054994,
+    "ast_hash": "3eb9e836bb95c12193fe8c69f0f3deb0",
+    "semantic_hash": "3eb9e836bb95c12193fe8c69f0f3deb0"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemma-4-31b-it/4536156/boundary-v3-t08-issue-fix-run_id_Run_1_google_gemma-4-31b.atif.json": {
+    "mtime": 1791450408.3513412,
+    "seen": 1793555772.7055004,
+    "ast_hash": "598b1295aaff28261398cdcb263cbe44",
+    "semantic_hash": "598b1295aaff28261398cdcb263cbe44"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemma-4-31b-it/4536156/boundary-v3-t08-issue-fix-run_id_Run_1_google_gemma-4-31b.result.json": {
+    "mtime": 1791450408.3513412,
+    "seen": 1793555772.705501,
+    "ast_hash": "07752150b641856176367368421a4898",
+    "semantic_hash": "07752150b641856176367368421a4898"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemma-4-31b-it/4536156/outputs/T08v3/gemma-4-31b-T08v3-CLOSED-R01.json": {
+    "mtime": 1791450408.3513412,
+    "seen": 1793555772.7055023,
+    "ast_hash": "9e92add4f37ef3460164ae58a47ecab2",
+    "semantic_hash": "9e92add4f37ef3460164ae58a47ecab2"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemma-4-31b-it/4536156/outputs/T08v3/gemma-4-31b-T08v3-OPEN-R01.json": {
+    "mtime": 1791450408.3513412,
+    "seen": 1793555772.705503,
+    "ast_hash": "b2ccbe094852905d85b610e9dad9c446",
+    "semantic_hash": "b2ccbe094852905d85b610e9dad9c446"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gemma-4-31b-it/4536156/outputs/T08v3/gemma-4-31b-T08v3-TASK-R01.json": {
+    "mtime": 1791450408.356203,
+    "seen": 1793555772.7055037,
+    "ast_hash": "fdb8f97f78809174c59c7c378416152b",
+    "semantic_hash": "fdb8f97f78809174c59c7c378416152b"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/glm-5/4536152/boundary-v3-t08-issue-fix-run_id_Run_1_zai_glm-5.atif.json": {
+    "mtime": 1791450409.7346318,
+    "seen": 1793555772.7055044,
+    "ast_hash": "9e18cf89f7384f535847edca54ab5b4f",
+    "semantic_hash": "9e18cf89f7384f535847edca54ab5b4f"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/glm-5/4536152/boundary-v3-t08-issue-fix-run_id_Run_1_zai_glm-5.result.json": {
+    "mtime": 1791450409.7346318,
+    "seen": 1793555772.7055056,
+    "ast_hash": "ffe08d3d3df65149bfc10226e96ed600",
+    "semantic_hash": "ffe08d3d3df65149bfc10226e96ed600"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/glm-5/4536152/outputs/T08v3/glm-5-T08v3-CLOSED-R01.json": {
+    "mtime": 1791450409.7361505,
+    "seen": 1793555772.7055063,
+    "ast_hash": "a1a14fb40b46f052163588b8994896e3",
+    "semantic_hash": "a1a14fb40b46f052163588b8994896e3"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/glm-5/4536152/outputs/T08v3/glm-5-T08v3-OPEN-R01.json": {
+    "mtime": 1791450409.7371633,
+    "seen": 1793555772.7055073,
+    "ast_hash": "e2f7c7bc538bb87e0e887598d06c0e5c",
+    "semantic_hash": "e2f7c7bc538bb87e0e887598d06c0e5c"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/glm-5/4536152/outputs/T08v3/glm-5-T08v3-TASK-R01.json": {
+    "mtime": 1791450409.737631,
+    "seen": 1793555772.705508,
+    "ast_hash": "87a71dea16b4f29b34c9b19106f3fc55",
+    "semantic_hash": "87a71dea16b4f29b34c9b19106f3fc55"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6-astra/4536159/boundary-v3-t08-issue-fix-run_id_Run_1_openai_gpt-6-astra.atif.json": {
+    "mtime": 1791450407.4239657,
+    "seen": 1793555772.705509,
+    "ast_hash": "66b6b73b8031a2f29f763164dea54b4e",
+    "semantic_hash": "66b6b73b8031a2f29f763164dea54b4e"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6-astra/4536159/boundary-v3-t08-issue-fix-run_id_Run_1_openai_gpt-6-astra.result.json": {
+    "mtime": 1791450407.4239657,
+    "seen": 1793555772.7055097,
+    "ast_hash": "fc9b5e7b9351036f36635d794a2eb3a5",
+    "semantic_hash": "fc9b5e7b9351036f36635d794a2eb3a5"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6-astra/4536159/outputs/T08v3/gpt-6-astra-T08v3-CLOSED-R01.json": {
+    "mtime": 1791450407.426487,
+    "seen": 1793555772.7055106,
+    "ast_hash": "9d6dc3334bcc8057d2fd70c40f48cd32",
+    "semantic_hash": "9d6dc3334bcc8057d2fd70c40f48cd32"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6-astra/4536159/outputs/T08v3/gpt-6-astra-T08v3-OPEN-R01.json": {
+    "mtime": 1791450407.4270034,
+    "seen": 1793555772.7055116,
+    "ast_hash": "768f71d2828ea69b2436b1fcf4b68c21",
+    "semantic_hash": "768f71d2828ea69b2436b1fcf4b68c21"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6-astra/4536159/outputs/T08v3/gpt-6-astra-T08v3-TASK-R01.json": {
+    "mtime": 1791450407.4270034,
+    "seen": 1793555772.7055125,
+    "ast_hash": "cf6f6246d997c229da42d425583a8394",
+    "semantic_hash": "cf6f6246d997c229da42d425583a8394"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6-luna/4536167/boundary-v3-t08-issue-fix-run_id_Run_1_openai_gpt-6-luna.atif.json": {
+    "mtime": 1791450405.2524786,
+    "seen": 1793555772.7055132,
+    "ast_hash": "50d7565aea894c5d9d1294e0a6a1d197",
+    "semantic_hash": "50d7565aea894c5d9d1294e0a6a1d197"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6-luna/4536167/boundary-v3-t08-issue-fix-run_id_Run_1_openai_gpt-6-luna.result.json": {
+    "mtime": 1791450405.2534893,
+    "seen": 1793555772.705514,
+    "ast_hash": "fe0009cc32132c14a8c2f089593edc45",
+    "semantic_hash": "fe0009cc32132c14a8c2f089593edc45"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6-luna/4536167/outputs/T08v3/gpt-6-luna-T08v3-CLOSED-R01.json": {
+    "mtime": 1791450405.2564855,
+    "seen": 1793555772.7055147,
+    "ast_hash": "96ce5c0db54f0da5995b12eaa01e3f26",
+    "semantic_hash": "96ce5c0db54f0da5995b12eaa01e3f26"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6-luna/4536167/outputs/T08v3/gpt-6-luna-T08v3-OPEN-R01.json": {
+    "mtime": 1791450405.2564855,
+    "seen": 1793555772.7055159,
+    "ast_hash": "706d03ee8f0ebbf0308c6dbd5d69f3ed",
+    "semantic_hash": "706d03ee8f0ebbf0308c6dbd5d69f3ed"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6-luna/4536167/outputs/T08v3/gpt-6-luna-T08v3-TASK-R01.json": {
+    "mtime": 1791450405.2569897,
+    "seen": 1793555772.7055166,
+    "ast_hash": "c910f348b72b227920712cb61ab0303c",
+    "semantic_hash": "c910f348b72b227920712cb61ab0303c"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6.1-sol/4536171/boundary-v3-t08-issue-fix-run_id_Run_1_openai_gpt-6.1-sol.atif.json": {
+    "mtime": 1791450402.7708173,
+    "seen": 1793555772.7055173,
+    "ast_hash": "4d6a2da1bcf07569e822976ab6722f78",
+    "semantic_hash": "4d6a2da1bcf07569e822976ab6722f78"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6.1-sol/4536171/boundary-v3-t08-issue-fix-run_id_Run_1_openai_gpt-6.1-sol.result.json": {
+    "mtime": 1791450402.7708173,
+    "seen": 1793555772.705518,
+    "ast_hash": "f1fc609e735f5094875cdef5acb99f1b",
+    "semantic_hash": "f1fc609e735f5094875cdef5acb99f1b"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6.1-sol/4536171/outputs/T08v3/gpt-6.1-sol-T08v3-CLOSED-R01.json": {
+    "mtime": 1791450402.7734015,
+    "seen": 1793555772.7055192,
+    "ast_hash": "6547aff519cf5b7837fd2acd85e0c77e",
+    "semantic_hash": "6547aff519cf5b7837fd2acd85e0c77e"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6.1-sol/4536171/outputs/T08v3/gpt-6.1-sol-T08v3-OPEN-R01.json": {
+    "mtime": 1791450402.7734015,
+    "seen": 1793555772.70552,
+    "ast_hash": "c8fd3ecf2e0d8806b41190d6d7a89d65",
+    "semantic_hash": "c8fd3ecf2e0d8806b41190d6d7a89d65"
+  },
+  "report/raw/boundary-v3-t08-issue-fix/1/gpt-6.1-sol/4536171/outputs/T08v3/gpt-6.1-sol-T08v3-TASK-R01.json": {
+    "mtime": 1791450402.7734015,
+    "seen": 1793555772.7055206,
+    "ast_hash": "6d6add8492b2aa4471e080a7d2dbf9ff",
+    "semantic_hash": "6d6add8492b2aa4471e080a7d2dbf9ff"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/claude-opus-5-5-default/4536183/boundary-v3-t11-ticket-closeout-run_id_Run_1_anthropic_claude-opus-5-5default.atif.json": {
+    "mtime": 1791450424.9541552,
+    "seen": 1793555772.7055216,
+    "ast_hash": "a207a8509922e2b7280e6b0a18fde674",
+    "semantic_hash": "a207a8509922e2b7280e6b0a18fde674"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/claude-opus-5-5-default/4536183/boundary-v3-t11-ticket-closeout-run_id_Run_1_anthropic_claude-opus-5-5default.result.json": {
+    "mtime": 1791450424.9561749,
+    "seen": 1793555772.7055225,
+    "ast_hash": "a69782c65feb8b0d926dfd2ba62bb145",
+    "semantic_hash": "a69782c65feb8b0d926dfd2ba62bb145"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/claude-opus-5-5-default/4536183/outputs/T11v3/claude-opus-5-5-default-T11v3-CLOSED-R01.json": {
+    "mtime": 1791450424.9571934,
+    "seen": 1793555772.7055233,
+    "ast_hash": "7c6ad57310dd6b34040f4d80627445e5",
+    "semantic_hash": "7c6ad57310dd6b34040f4d80627445e5"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/claude-opus-5-5-default/4536183/outputs/T11v3/claude-opus-5-5-default-T11v3-OPEN-R01.json": {
+    "mtime": 1791450424.9571934,
+    "seen": 1793555772.705524,
+    "ast_hash": "45898678c9062c499361e2f389a53979",
+    "semantic_hash": "45898678c9062c499361e2f389a53979"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/claude-opus-5-5-default/4536183/outputs/T11v3/claude-opus-5-5-default-T11v3-TASK-R01.json": {
+    "mtime": 1791450424.9571934,
+    "seen": 1793555772.7055247,
+    "ast_hash": "db6c16a40e9f977a0c69427f7044d175",
+    "semantic_hash": "db6c16a40e9f977a0c69427f7044d175"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/claude-sonnet-5-5-default/4536189/boundary-v3-t11-ticket-closeout-run_id_Run_1_anthropic_claude-sonnet-5-5default.atif.json": {
+    "mtime": 1791450422.1149485,
+    "seen": 1793555772.7055259,
+    "ast_hash": "3a4ef084776415347440ba072b255376",
+    "semantic_hash": "3a4ef084776415347440ba072b255376"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/claude-sonnet-5-5-default/4536189/boundary-v3-t11-ticket-closeout-run_id_Run_1_anthropic_claude-sonnet-5-5default.result.json": {
+    "mtime": 1791450422.1169724,
+    "seen": 1793555772.7055266,
+    "ast_hash": "f6e0340ce2a8616c62413e3204a1c24b",
+    "semantic_hash": "f6e0340ce2a8616c62413e3204a1c24b"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/claude-sonnet-5-5-default/4536189/outputs/T11v3/claude-sonnet-5-5-default-T11v3-CLOSED-R01.json": {
+    "mtime": 1791450422.1181147,
+    "seen": 1793555772.7055273,
+    "ast_hash": "15fbba74466008ff03d835e5a032ecb4",
+    "semantic_hash": "15fbba74466008ff03d835e5a032ecb4"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/claude-sonnet-5-5-default/4536189/outputs/T11v3/claude-sonnet-5-5-default-T11v3-OPEN-R01.json": {
+    "mtime": 1791450422.119392,
+    "seen": 1793555772.705528,
+    "ast_hash": "192344737e32e89be8949760e39bd13c",
+    "semantic_hash": "192344737e32e89be8949760e39bd13c"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/claude-sonnet-5-5-default/4536189/outputs/T11v3/claude-sonnet-5-5-default-T11v3-TASK-R01.json": {
+    "mtime": 1791450422.119392,
+    "seen": 1793555772.7055287,
+    "ast_hash": "23b89e9d2b7478f09f490556fab5a3d4",
+    "semantic_hash": "23b89e9d2b7478f09f490556fab5a3d4"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.1-pro-preview/4536174/boundary-v3-t11-ticket-closeout-run_id_Run_1_google_gemini-3.1-pro-preview.atif.json": {
+    "mtime": 1791450428.4094017,
+    "seen": 1793555772.70553,
+    "ast_hash": "520dc0e94c867e7665401ef24eab68e6",
+    "semantic_hash": "520dc0e94c867e7665401ef24eab68e6"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.1-pro-preview/4536174/boundary-v3-t11-ticket-closeout-run_id_Run_1_google_gemini-3.1-pro-preview.result.json": {
+    "mtime": 1791450428.4094017,
+    "seen": 1793555772.7055306,
+    "ast_hash": "fa8a544f9cd9a28f40ee66e5f77fe61e",
+    "semantic_hash": "fa8a544f9cd9a28f40ee66e5f77fe61e"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.1-pro-preview/4536174/outputs/T11v3/gemini-3.1-pro-preview-T11v3-CLOSED-R01.json": {
+    "mtime": 1791450428.4094017,
+    "seen": 1793555772.7055314,
+    "ast_hash": "4b16598ad9c516aa9cfd8a0444e5512c",
+    "semantic_hash": "4b16598ad9c516aa9cfd8a0444e5512c"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.1-pro-preview/4536174/outputs/T11v3/gemini-3.1-pro-preview-T11v3-OPEN-R01.json": {
+    "mtime": 1791450428.4094017,
+    "seen": 1793555772.7055335,
+    "ast_hash": "852c834b112dd5c67d5c907533dd13f8",
+    "semantic_hash": "852c834b112dd5c67d5c907533dd13f8"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.1-pro-preview/4536174/outputs/T11v3/gemini-3.1-pro-preview-T11v3-TASK-R01.json": {
+    "mtime": 1791450428.4094017,
+    "seen": 1793555772.7055345,
+    "ast_hash": "7a7537189200070689dbbb8879754473",
+    "semantic_hash": "7a7537189200070689dbbb8879754473"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.7-flash/4535262/boundary-v3-t11-ticket-closeout-run_id_Run_1_google_gemini-3.7-flash.atif.json": {
+    "mtime": 1791450429.2312217,
+    "seen": 1793555772.7055352,
+    "ast_hash": "3121e8ae40a7c1ef6d67af50296f23ff",
+    "semantic_hash": "3121e8ae40a7c1ef6d67af50296f23ff"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.7-flash/4535262/boundary-v3-t11-ticket-closeout-run_id_Run_1_google_gemini-3.7-flash.result.json": {
+    "mtime": 1791450429.2331336,
+    "seen": 1793555772.705536,
+    "ast_hash": "b439e9983de39c3b13ac69a01af17b5d",
+    "semantic_hash": "b439e9983de39c3b13ac69a01af17b5d"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.7-flash/4535262/outputs/T11v3/gemini-3.7-flash-T11v3-CLOSED-R01.json": {
+    "mtime": 1791450429.236023,
+    "seen": 1793555772.705537,
+    "ast_hash": "c0a8ee6baf80e4140a53596563d5ba18",
+    "semantic_hash": "c0a8ee6baf80e4140a53596563d5ba18"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.7-flash/4535262/outputs/T11v3/gemini-3.7-flash-T11v3-OPEN-R01.json": {
+    "mtime": 1791450429.236023,
+    "seen": 1793555772.7055378,
+    "ast_hash": "d77138da4eb8a2b59c3b45d964ca3526",
+    "semantic_hash": "d77138da4eb8a2b59c3b45d964ca3526"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.7-flash/4535262/outputs/T11v3/gemini-3.7-flash-T11v3-TASK-R01.json": {
+    "mtime": 1791450429.2370348,
+    "seen": 1793555772.7055385,
+    "ast_hash": "e3421ac7e91c5b7e1559273817ed5e33",
+    "semantic_hash": "e3421ac7e91c5b7e1559273817ed5e33"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.8-flash/4543013/boundary-v3-t11-ticket-closeout-run_id_Run_1_google_gemini-3.8-flash.atif.json": {
+    "mtime": 1791450419.8545465,
+    "seen": 1793555772.7055395,
+    "ast_hash": "60ffc8dcff8d35c48bd0310eea267bf4",
+    "semantic_hash": "60ffc8dcff8d35c48bd0310eea267bf4"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.8-flash/4543013/boundary-v3-t11-ticket-closeout-run_id_Run_1_google_gemini-3.8-flash.result.json": {
+    "mtime": 1791450419.8545465,
+    "seen": 1793555772.7055404,
+    "ast_hash": "457f49387b221b5dc272d08cf4a1d1f5",
+    "semantic_hash": "457f49387b221b5dc272d08cf4a1d1f5"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.8-flash/4543013/outputs/T11v3/gemini-3.8-flash-T11v3-CLOSED-R01.json": {
+    "mtime": 1791450419.8575602,
+    "seen": 1793555772.7055411,
+    "ast_hash": "8bffe01dcacd957df7a5dc5b37f43dec",
+    "semantic_hash": "8bffe01dcacd957df7a5dc5b37f43dec"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.8-flash/4543013/outputs/T11v3/gemini-3.8-flash-T11v3-OPEN-R01.json": {
+    "mtime": 1791450419.8586097,
+    "seen": 1793555772.7055418,
+    "ast_hash": "54d6d8246261587aeca2331c891e826d",
+    "semantic_hash": "54d6d8246261587aeca2331c891e826d"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemini-3.8-flash/4543013/outputs/T11v3/gemini-3.8-flash-T11v3-TASK-R01.json": {
+    "mtime": 1791450419.8586097,
+    "seen": 1793555772.7055428,
+    "ast_hash": "013b714f477dc058f817967cb3fdd9b6",
+    "semantic_hash": "013b714f477dc058f817967cb3fdd9b6"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemma-4-31b-it/4536179/boundary-v3-t11-ticket-closeout-run_id_Run_1_google_gemma-4-31b.atif.json": {
+    "mtime": 1791450426.73979,
+    "seen": 1793555772.7055438,
+    "ast_hash": "19691fa77dc63b535589df14e17bb9a1",
+    "semantic_hash": "19691fa77dc63b535589df14e17bb9a1"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemma-4-31b-it/4536179/boundary-v3-t11-ticket-closeout-run_id_Run_1_google_gemma-4-31b.result.json": {
+    "mtime": 1791450426.7463045,
+    "seen": 1793555772.7055445,
+    "ast_hash": "44bfe509b386f3a049f5be3f048b02e6",
+    "semantic_hash": "44bfe509b386f3a049f5be3f048b02e6"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemma-4-31b-it/4536179/outputs/T11v3/gemma-4-31b-T11v3-CLOSED-R01.json": {
+    "mtime": 1791450426.7473454,
+    "seen": 1793555772.7055452,
+    "ast_hash": "270601c536d995402c6c58999e2c5961",
+    "semantic_hash": "270601c536d995402c6c58999e2c5961"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemma-4-31b-it/4536179/outputs/T11v3/gemma-4-31b-T11v3-OPEN-R01.json": {
+    "mtime": 1791450426.748358,
+    "seen": 1793555772.7055461,
+    "ast_hash": "fe1f84745304a664c62a145a3256e425",
+    "semantic_hash": "fe1f84745304a664c62a145a3256e425"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gemma-4-31b-it/4536179/outputs/T11v3/gemma-4-31b-T11v3-TASK-R01.json": {
+    "mtime": 1791450426.748358,
+    "seen": 1793555772.7055473,
+    "ast_hash": "eafe7557689989d7bc16668415705e4b",
+    "semantic_hash": "eafe7557689989d7bc16668415705e4b"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/glm-5/4536177/boundary-v3-t11-ticket-closeout-run_id_Run_1_zai_glm-5.atif.json": {
+    "mtime": 1791450427.6081264,
+    "seen": 1793555772.705548,
+    "ast_hash": "1815e387deb880c053ed1bcb5154c30a",
+    "semantic_hash": "1815e387deb880c053ed1bcb5154c30a"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/glm-5/4536177/boundary-v3-t11-ticket-closeout-run_id_Run_1_zai_glm-5.result.json": {
+    "mtime": 1791450427.6081264,
+    "seen": 1793555772.7055488,
+    "ast_hash": "4fa320b492ea1f1c8b94c443cf00daf2",
+    "semantic_hash": "4fa320b492ea1f1c8b94c443cf00daf2"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/glm-5/4536177/outputs/T11v3/glm-5-T11v3-CLOSED-R01.json": {
+    "mtime": 1791450427.6104555,
+    "seen": 1793555772.7055497,
+    "ast_hash": "783b58e4da17258d922cc9eaa1a784bf",
+    "semantic_hash": "783b58e4da17258d922cc9eaa1a784bf"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/glm-5/4536177/outputs/T11v3/glm-5-T11v3-OPEN-R01.json": {
+    "mtime": 1791450427.6104555,
+    "seen": 1793555772.7055507,
+    "ast_hash": "97c7cf3a71cd7a20abbf71d8d683199e",
+    "semantic_hash": "97c7cf3a71cd7a20abbf71d8d683199e"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/glm-5/4536177/outputs/T11v3/glm-5-T11v3-TASK-R01.json": {
+    "mtime": 1791450427.6104555,
+    "seen": 1793555772.7055514,
+    "ast_hash": "ad2026cec68a2ca4eed8dfa1dd225ea7",
+    "semantic_hash": "ad2026cec68a2ca4eed8dfa1dd225ea7"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6-astra/4536181/boundary-v3-t11-ticket-closeout-run_id_Run_1_openai_gpt-6-astra.atif.json": {
+    "mtime": 1791450425.809691,
+    "seen": 1793555772.7055523,
+    "ast_hash": "39c1299c54df614bf62fb2205598817f",
+    "semantic_hash": "39c1299c54df614bf62fb2205598817f"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6-astra/4536181/boundary-v3-t11-ticket-closeout-run_id_Run_1_openai_gpt-6-astra.result.json": {
+    "mtime": 1791450425.8102388,
+    "seen": 1793555772.7055528,
+    "ast_hash": "4fc55317432988a23a81e1f9b5230eb5",
+    "semantic_hash": "4fc55317432988a23a81e1f9b5230eb5"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6-astra/4536181/outputs/T11v3/gpt-6-astra-T11v3-CLOSED-R01.json": {
+    "mtime": 1791450425.8130765,
+    "seen": 1793555772.705554,
+    "ast_hash": "6604d90ba4b69673536812bc4fa26967",
+    "semantic_hash": "6604d90ba4b69673536812bc4fa26967"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6-astra/4536181/outputs/T11v3/gpt-6-astra-T11v3-OPEN-R01.json": {
+    "mtime": 1791450425.8130765,
+    "seen": 1793555772.7055547,
+    "ast_hash": "91e1c8668b4741bec4b36f1e961eccda",
+    "semantic_hash": "91e1c8668b4741bec4b36f1e961eccda"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6-astra/4536181/outputs/T11v3/gpt-6-astra-T11v3-TASK-R01.json": {
+    "mtime": 1791450425.8140748,
+    "seen": 1793555772.7055554,
+    "ast_hash": "5729b249c9a205d1387770ba791518e9",
+    "semantic_hash": "5729b249c9a205d1387770ba791518e9"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6-luna/4536186/boundary-v3-t11-ticket-closeout-run_id_Run_1_openai_gpt-6-luna.atif.json": {
+    "mtime": 1791450423.7071407,
+    "seen": 1793555772.7055564,
+    "ast_hash": "b6f7d3ed41a3ae20ad53cf4dfe14a2fb",
+    "semantic_hash": "b6f7d3ed41a3ae20ad53cf4dfe14a2fb"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6-luna/4536186/boundary-v3-t11-ticket-closeout-run_id_Run_1_openai_gpt-6-luna.result.json": {
+    "mtime": 1791450423.7081616,
+    "seen": 1793555772.7055573,
+    "ast_hash": "7e09f3d2ba36d62fb3a4b860903d47d2",
+    "semantic_hash": "7e09f3d2ba36d62fb3a4b860903d47d2"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6-luna/4536186/outputs/T11v3/gpt-6-luna-T11v3-CLOSED-R01.json": {
+    "mtime": 1791450423.7103457,
+    "seen": 1793555772.7055583,
+    "ast_hash": "ec5653caca781021a3e60d98d5b1aaab",
+    "semantic_hash": "ec5653caca781021a3e60d98d5b1aaab"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6-luna/4536186/outputs/T11v3/gpt-6-luna-T11v3-OPEN-R01.json": {
+    "mtime": 1791450423.7103457,
+    "seen": 1793555772.705559,
+    "ast_hash": "a6b202c9ac9a1692886e9c1d84026fd3",
+    "semantic_hash": "a6b202c9ac9a1692886e9c1d84026fd3"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6-luna/4536186/outputs/T11v3/gpt-6-luna-T11v3-TASK-R01.json": {
+    "mtime": 1791450423.7103457,
+    "seen": 1793555772.7055597,
+    "ast_hash": "7226f8c86c676f1e4aa637c8d534b45c",
+    "semantic_hash": "7226f8c86c676f1e4aa637c8d534b45c"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6.1-sol/4536193/boundary-v3-t11-ticket-closeout-run_id_Run_1_openai_gpt-6.1-sol.atif.json": {
+    "mtime": 1791450420.8353884,
+    "seen": 1793555772.7055607,
+    "ast_hash": "49e32278b20d1c30786212651ddcc684",
+    "semantic_hash": "49e32278b20d1c30786212651ddcc684"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6.1-sol/4536193/boundary-v3-t11-ticket-closeout-run_id_Run_1_openai_gpt-6.1-sol.result.json": {
+    "mtime": 1791450420.836388,
+    "seen": 1793555772.7055616,
+    "ast_hash": "3c848acab78f18687a24971bbb15a0f7",
+    "semantic_hash": "3c848acab78f18687a24971bbb15a0f7"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6.1-sol/4536193/outputs/T11v3/gpt-6.1-sol-T11v3-CLOSED-R01.json": {
+    "mtime": 1791450420.8384097,
+    "seen": 1793555772.7055624,
+    "ast_hash": "07be9cf599ef20dee310d96cec4c1350",
+    "semantic_hash": "07be9cf599ef20dee310d96cec4c1350"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6.1-sol/4536193/outputs/T11v3/gpt-6.1-sol-T11v3-OPEN-R01.json": {
+    "mtime": 1791450420.8394184,
+    "seen": 1793555772.7055628,
+    "ast_hash": "5706745f0526afb0e6d610736031a92c",
+    "semantic_hash": "5706745f0526afb0e6d610736031a92c"
+  },
+  "report/raw/boundary-v3-t11-ticket-closeout/1/gpt-6.1-sol/4536193/outputs/T11v3/gpt-6.1-sol-T11v3-TASK-R01.json": {
+    "mtime": 1791450420.8404293,
+    "seen": 1793555772.705564,
+    "ast_hash": "74ed2e4d2a0b3cee2c62e496016b830b",
+    "semantic_hash": "74ed2e4d2a0b3cee2c62e496016b830b"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/claude-opus-5-5-default/4595535/boundary-v3-t18-blocked-release-run_id_Run_1_anthropic_claude-opus-5-5default.atif.json": {
+    "mtime": 1791532675.725137,
+    "seen": 1793555772.7055647,
+    "ast_hash": "a1936d0a558e870347fc32ae81994f28",
+    "semantic_hash": "a1936d0a558e870347fc32ae81994f28"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/claude-opus-5-5-default/4595535/boundary-v3-t18-blocked-release-run_id_Run_1_anthropic_claude-opus-5-5default.result.json": {
+    "mtime": 1791532675.725137,
+    "seen": 1793555772.7055655,
+    "ast_hash": "279726951b40bdd1ef4bcdd1d683f108",
+    "semantic_hash": "279726951b40bdd1ef4bcdd1d683f108"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/claude-opus-5-5-default/4595535/outputs/T18v3/claude-opus-5-5-default-T18v3-CLOSED-R01.json": {
+    "mtime": 1791532675.7289083,
+    "seen": 1793555772.7055662,
+    "ast_hash": "1ca42aea59ba485ac2ce0e9613a4ea6d",
+    "semantic_hash": "1ca42aea59ba485ac2ce0e9613a4ea6d"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/claude-opus-5-5-default/4595535/outputs/T18v3/claude-opus-5-5-default-T18v3-OPEN-R01.json": {
+    "mtime": 1791532675.7293198,
+    "seen": 1793555772.7055671,
+    "ast_hash": "c06c40b330072a34b4792a75f7507c3d",
+    "semantic_hash": "c06c40b330072a34b4792a75f7507c3d"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/claude-opus-5-5-default/4595535/outputs/T18v3/claude-opus-5-5-default-T18v3-TASK-R01.json": {
+    "mtime": 1791532675.7293198,
+    "seen": 1793555772.705568,
+    "ast_hash": "ee53fa016c2f6cd84f3174149cdb7b5f",
+    "semantic_hash": "ee53fa016c2f6cd84f3174149cdb7b5f"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/claude-sonnet-5-5-default/4543015/boundary-v3-t18-blocked-release-run_id_Run_1_anthropic_claude-sonnet-5-5default.atif.json": {
+    "mtime": 1791450444.8162956,
+    "seen": 1793555772.7055688,
+    "ast_hash": "ec62c77f3780176ec606dd89fd4d4db0",
+    "semantic_hash": "ec62c77f3780176ec606dd89fd4d4db0"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/claude-sonnet-5-5-default/4543015/boundary-v3-t18-blocked-release-run_id_Run_1_anthropic_claude-sonnet-5-5default.result.json": {
+    "mtime": 1791450444.8162956,
+    "seen": 1793555772.7055695,
+    "ast_hash": "fbc6597ae97440f8569cb305b9a624e4",
+    "semantic_hash": "fbc6597ae97440f8569cb305b9a624e4"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/claude-sonnet-5-5-default/4543015/outputs/T18v3/claude-sonnet-5-5-default-T18v3-CLOSED-R01.json": {
+    "mtime": 1791450444.8173146,
+    "seen": 1793555772.7055702,
+    "ast_hash": "27ab29a750c55cb04a35ba0502deb141",
+    "semantic_hash": "27ab29a750c55cb04a35ba0502deb141"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/claude-sonnet-5-5-default/4543015/outputs/T18v3/claude-sonnet-5-5-default-T18v3-OPEN-R01.json": {
+    "mtime": 1791450444.8173146,
+    "seen": 1793555772.7055712,
+    "ast_hash": "3ab226787c8e67e56af9442a44732564",
+    "semantic_hash": "3ab226787c8e67e56af9442a44732564"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/claude-sonnet-5-5-default/4543015/outputs/T18v3/claude-sonnet-5-5-default-T18v3-TASK-R01.json": {
+    "mtime": 1791450444.8173146,
+    "seen": 1793555772.705572,
+    "ast_hash": "12cf143d85cfca71d5c18c90c3820b69",
+    "semantic_hash": "12cf143d85cfca71d5c18c90c3820b69"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.1-pro-preview/4536185/boundary-v3-t18-blocked-release-run_id_Run_1_google_gemini-3.1-pro-preview.atif.json": {
+    "mtime": 1791450451.6413484,
+    "seen": 1793555772.7055726,
+    "ast_hash": "28eb9641213f9f81a22caa8a7ad1b9f0",
+    "semantic_hash": "28eb9641213f9f81a22caa8a7ad1b9f0"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.1-pro-preview/4536185/boundary-v3-t18-blocked-release-run_id_Run_1_google_gemini-3.1-pro-preview.result.json": {
+    "mtime": 1791450451.6413484,
+    "seen": 1793555772.7055733,
+    "ast_hash": "3ec4005095f4dfeb1b14c6474982adc7",
+    "semantic_hash": "3ec4005095f4dfeb1b14c6474982adc7"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.1-pro-preview/4536185/outputs/T18v3/gemini-3.1-pro-preview-T18v3-CLOSED-R01.json": {
+    "mtime": 1791450451.6437616,
+    "seen": 1793555772.7055745,
+    "ast_hash": "2cba71d65d207a38f16db3e065fdd02e",
+    "semantic_hash": "2cba71d65d207a38f16db3e065fdd02e"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.1-pro-preview/4536185/outputs/T18v3/gemini-3.1-pro-preview-T18v3-OPEN-R01.json": {
+    "mtime": 1791450451.6452706,
+    "seen": 1793555772.7055752,
+    "ast_hash": "58386088ae271ef2029bea1d1838e1ac",
+    "semantic_hash": "58386088ae271ef2029bea1d1838e1ac"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.1-pro-preview/4536185/outputs/T18v3/gemini-3.1-pro-preview-T18v3-TASK-R01.json": {
+    "mtime": 1791450451.6462798,
+    "seen": 1793555772.705576,
+    "ast_hash": "7da86aaff5e806c0d04af73a7f81ed44",
+    "semantic_hash": "7da86aaff5e806c0d04af73a7f81ed44"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.7-flash/4536008/boundary-v3-t18-blocked-release-run_id_Run_1_google_gemini-3.7-flash.atif.json": {
+    "mtime": 1791450452.9191842,
+    "seen": 1793555772.7055767,
+    "ast_hash": "c5e031bae10c67d58494bec51aac7ea4",
+    "semantic_hash": "c5e031bae10c67d58494bec51aac7ea4"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.7-flash/4536008/boundary-v3-t18-blocked-release-run_id_Run_1_google_gemini-3.7-flash.result.json": {
+    "mtime": 1791450452.9201825,
+    "seen": 1793555772.7055774,
+    "ast_hash": "b8e2f15414d74c32ca76bc4be0d2c0dd",
+    "semantic_hash": "b8e2f15414d74c32ca76bc4be0d2c0dd"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.7-flash/4536008/outputs/T18v3/gemini-3.7-flash-T18v3-CLOSED-R01.json": {
+    "mtime": 1791450452.9234905,
+    "seen": 1793555772.7055786,
+    "ast_hash": "778cb310f9418745ea2328c606c40884",
+    "semantic_hash": "778cb310f9418745ea2328c606c40884"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.7-flash/4536008/outputs/T18v3/gemini-3.7-flash-T18v3-OPEN-R01.json": {
+    "mtime": 1791450452.924572,
+    "seen": 1793555772.7055793,
+    "ast_hash": "b4421ded6894450b183bb903872c81a9",
+    "semantic_hash": "b4421ded6894450b183bb903872c81a9"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.7-flash/4536008/outputs/T18v3/gemini-3.7-flash-T18v3-TASK-R01.json": {
+    "mtime": 1791450452.925544,
+    "seen": 1793555772.7055798,
+    "ast_hash": "531bf2e55bfc2f9a10465deddbf22116",
+    "semantic_hash": "531bf2e55bfc2f9a10465deddbf22116"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.8-flash/4543014/boundary-v3-t18-blocked-release-run_id_Run_1_google_gemini-3.8-flash.atif.json": {
+    "mtime": 1791450446.7890284,
+    "seen": 1793555772.7055807,
+    "ast_hash": "760eaf0fcc89d1940c98fa5363f1ab81",
+    "semantic_hash": "760eaf0fcc89d1940c98fa5363f1ab81"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.8-flash/4543014/boundary-v3-t18-blocked-release-run_id_Run_1_google_gemini-3.8-flash.result.json": {
+    "mtime": 1791450446.7910848,
+    "seen": 1793555772.7055817,
+    "ast_hash": "08daef262ec39ba14ebccf1d7dc902ca",
+    "semantic_hash": "08daef262ec39ba14ebccf1d7dc902ca"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.8-flash/4543014/outputs/T18v3/gemini-3.8-flash-T18v3-CLOSED-R01.json": {
+    "mtime": 1791450446.792591,
+    "seen": 1793555772.7055824,
+    "ast_hash": "a56e4d315d21711d7bb14fae2141c4dd",
+    "semantic_hash": "a56e4d315d21711d7bb14fae2141c4dd"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.8-flash/4543014/outputs/T18v3/gemini-3.8-flash-T18v3-OPEN-R01.json": {
+    "mtime": 1791450446.7969017,
+    "seen": 1793555772.705583,
+    "ast_hash": "42a08522d74a4d8c420f30e3a6cb3537",
+    "semantic_hash": "42a08522d74a4d8c420f30e3a6cb3537"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemini-3.8-flash/4543014/outputs/T18v3/gemini-3.8-flash-T18v3-TASK-R01.json": {
+    "mtime": 1791450446.7969017,
+    "seen": 1793555772.705584,
+    "ast_hash": "1da279364da09addf327aae9a54d862c",
+    "semantic_hash": "1da279364da09addf327aae9a54d862c"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemma-4-31b-it/4536191/boundary-v3-t18-blocked-release-run_id_Run_1_google_gemma-4-31b.atif.json": {
+    "mtime": 1791450448.7284186,
+    "seen": 1793555772.705585,
+    "ast_hash": "e5a879b0c5528f0a9afc91d9633e4574",
+    "semantic_hash": "e5a879b0c5528f0a9afc91d9633e4574"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemma-4-31b-it/4536191/boundary-v3-t18-blocked-release-run_id_Run_1_google_gemma-4-31b.result.json": {
+    "mtime": 1791450448.7284186,
+    "seen": 1793555772.7055857,
+    "ast_hash": "a2906d2187c362827b5e8b0ed2689018",
+    "semantic_hash": "a2906d2187c362827b5e8b0ed2689018"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemma-4-31b-it/4536191/outputs/T18v3/gemma-4-31b-T18v3-CLOSED-R01.json": {
+    "mtime": 1791450448.7299898,
+    "seen": 1793555772.7055864,
+    "ast_hash": "098b031808dd179180505d0773e96010",
+    "semantic_hash": "098b031808dd179180505d0773e96010"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemma-4-31b-it/4536191/outputs/T18v3/gemma-4-31b-T18v3-OPEN-R01.json": {
+    "mtime": 1791450448.731202,
+    "seen": 1793555772.7055871,
+    "ast_hash": "75b1edbb551fe421e41f87ebaca1075c",
+    "semantic_hash": "75b1edbb551fe421e41f87ebaca1075c"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gemma-4-31b-it/4536191/outputs/T18v3/gemma-4-31b-T18v3-TASK-R01.json": {
+    "mtime": 1791450448.731202,
+    "seen": 1793555772.7055883,
+    "ast_hash": "54dbdba6a1cf706b8e3034d4e34174f6",
+    "semantic_hash": "54dbdba6a1cf706b8e3034d4e34174f6"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/glm-5/4536188/boundary-v3-t18-blocked-release-run_id_Run_1_zai_glm-5.atif.json": {
+    "mtime": 1791450449.5520632,
+    "seen": 1793555772.705589,
+    "ast_hash": "82e522a8fea969ed93d95a9b7a31c27b",
+    "semantic_hash": "82e522a8fea969ed93d95a9b7a31c27b"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/glm-5/4536188/boundary-v3-t18-blocked-release-run_id_Run_1_zai_glm-5.result.json": {
+    "mtime": 1791450449.5520632,
+    "seen": 1793555772.7055898,
+    "ast_hash": "02feb8209d5bdb473437736279a610e1",
+    "semantic_hash": "02feb8209d5bdb473437736279a610e1"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/glm-5/4536188/outputs/T18v3/glm-5-T18v3-CLOSED-R01.json": {
+    "mtime": 1791450449.5541987,
+    "seen": 1793555772.7055907,
+    "ast_hash": "12e815a4458ac8836aac7af2d87b4465",
+    "semantic_hash": "12e815a4458ac8836aac7af2d87b4465"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/glm-5/4536188/outputs/T18v3/glm-5-T18v3-OPEN-R01.json": {
+    "mtime": 1791450449.5541987,
+    "seen": 1793555772.7055914,
+    "ast_hash": "ff5f440d6ff6d809d97474f964d2330d",
+    "semantic_hash": "ff5f440d6ff6d809d97474f964d2330d"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/glm-5/4536188/outputs/T18v3/glm-5-T18v3-TASK-R01.json": {
+    "mtime": 1791450449.5562897,
+    "seen": 1793555772.7055924,
+    "ast_hash": "96d977af5dd38672aaa25a424fc2e182",
+    "semantic_hash": "96d977af5dd38672aaa25a424fc2e182"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6-astra/4536194/boundary-v3-t18-blocked-release-run_id_Run_1_openai_gpt-6-astra.atif.json": {
+    "mtime": 1791450447.7776637,
+    "seen": 1793555772.705593,
+    "ast_hash": "c442521f9f1794c891a9bf7526e0f354",
+    "semantic_hash": "c442521f9f1794c891a9bf7526e0f354"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6-astra/4536194/boundary-v3-t18-blocked-release-run_id_Run_1_openai_gpt-6-astra.result.json": {
+    "mtime": 1791450447.7812862,
+    "seen": 1793555772.7055938,
+    "ast_hash": "4a96f09a3cebc689729ecfe42343c3d2",
+    "semantic_hash": "4a96f09a3cebc689729ecfe42343c3d2"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6-astra/4536194/outputs/T18v3/gpt-6-astra-T18v3-CLOSED-R01.json": {
+    "mtime": 1791450447.7812862,
+    "seen": 1793555772.7055945,
+    "ast_hash": "31b8b4cfd1c0d44ea9926482701ba9ca",
+    "semantic_hash": "31b8b4cfd1c0d44ea9926482701ba9ca"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6-astra/4536194/outputs/T18v3/gpt-6-astra-T18v3-OPEN-R01.json": {
+    "mtime": 1791450447.7812862,
+    "seen": 1793555772.7055957,
+    "ast_hash": "dae80a17c998918ecbb7e1f66418b8c9",
+    "semantic_hash": "dae80a17c998918ecbb7e1f66418b8c9"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6-astra/4536194/outputs/T18v3/gpt-6-astra-T18v3-TASK-R01.json": {
+    "mtime": 1791450447.7812862,
+    "seen": 1793555772.7055964,
+    "ast_hash": "0f074b4cacc61bd09353b558356ea094",
+    "semantic_hash": "0f074b4cacc61bd09353b558356ea094"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6-luna/4595536/boundary-v3-t18-blocked-release-run_id_Run_1_openai_gpt-6-luna.atif.json": {
+    "mtime": 1791532674.8315256,
+    "seen": 1793555772.7055972,
+    "ast_hash": "65fcac777b7b3e42e4f3d4c44fa2be75",
+    "semantic_hash": "65fcac777b7b3e42e4f3d4c44fa2be75"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6-luna/4595536/boundary-v3-t18-blocked-release-run_id_Run_1_openai_gpt-6-luna.result.json": {
+    "mtime": 1791532674.8315256,
+    "seen": 1793555772.705598,
+    "ast_hash": "52360bf42c3261ab3abf347a0b703aa4",
+    "semantic_hash": "52360bf42c3261ab3abf347a0b703aa4"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6-luna/4595536/outputs/T18v3/gpt-6-luna-T18v3-CLOSED-R01.json": {
+    "mtime": 1791532674.8337936,
+    "seen": 1793555772.705599,
+    "ast_hash": "0f29843737a4c49b21bcbb048a82bbbd",
+    "semantic_hash": "0f29843737a4c49b21bcbb048a82bbbd"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6-luna/4595536/outputs/T18v3/gpt-6-luna-T18v3-OPEN-R01.json": {
+    "mtime": 1791532674.8348007,
+    "seen": 1793555772.7056,
+    "ast_hash": "e15d9bcd55ccc81ef228ed08bd6f4fa3",
+    "semantic_hash": "e15d9bcd55ccc81ef228ed08bd6f4fa3"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6-luna/4595536/outputs/T18v3/gpt-6-luna-T18v3-TASK-R01.json": {
+    "mtime": 1791532674.8348007,
+    "seen": 1793555772.7056005,
+    "ast_hash": "3c0991f4e2aa90c87307ade9a27f4f95",
+    "semantic_hash": "3c0991f4e2aa90c87307ade9a27f4f95"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6.1-sol/4543016/boundary-v3-t18-blocked-release-run_id_Run_1_openai_gpt-6.1-sol.atif.json": {
+    "mtime": 1791450443.4279816,
+    "seen": 1793555772.7056012,
+    "ast_hash": "7e3476e23c966c22322895ac0db2a7b1",
+    "semantic_hash": "7e3476e23c966c22322895ac0db2a7b1"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6.1-sol/4543016/boundary-v3-t18-blocked-release-run_id_Run_1_openai_gpt-6.1-sol.result.json": {
+    "mtime": 1791450443.4279816,
+    "seen": 1793555772.7056024,
+    "ast_hash": "1b8a0e8765b103892ec78c9c4febd719",
+    "semantic_hash": "1b8a0e8765b103892ec78c9c4febd719"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6.1-sol/4543016/outputs/T18v3/gpt-6.1-sol-T18v3-CLOSED-R01.json": {
+    "mtime": 1791450443.4279816,
+    "seen": 1793555772.7056031,
+    "ast_hash": "bc85f4a5d1e4fd23d7df7291ac08187d",
+    "semantic_hash": "bc85f4a5d1e4fd23d7df7291ac08187d"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6.1-sol/4543016/outputs/T18v3/gpt-6.1-sol-T18v3-OPEN-R01.json": {
+    "mtime": 1791450443.4279816,
+    "seen": 1793555772.7056038,
+    "ast_hash": "7b85930b4b10ea1e3d6c6f683e700cac",
+    "semantic_hash": "7b85930b4b10ea1e3d6c6f683e700cac"
+  },
+  "report/raw/boundary-v3-t18-blocked-release/1/gpt-6.1-sol/4543016/outputs/T18v3/gpt-6.1-sol-T18v3-TASK-R01.json": {
+    "mtime": 1791450443.4279816,
+    "seen": 1793555772.7056046,
+    "ast_hash": "176fe52067cbdfae7ad53ae71cd19616",
+    "semantic_hash": "176fe52067cbdfae7ad53ae71cd19616"
+  },
+  "tasks/boundary_common/__init__.py": {
+    "mtime": 1791312887.563809,
+    "seen": 1793555772.7056057,
+    "ast_hash": "266fbcac1baad68ffd8901a0caf178a8",
+    "semantic_hash": "266fbcac1baad68ffd8901a0caf178a8"
+  },
+  "tasks/boundary_common/cell.py": {
+    "mtime": 1791442647.7339656,
+    "seen": 1793555772.7056065,
+    "ast_hash": "ab74c9f5b3655f89e3399239a14a0266",
+    "semantic_hash": "ab74c9f5b3655f89e3399239a14a0266"
+  },
+  "tasks/boundary_common/models.py": {
+    "mtime": 1791400393.9652052,
+    "seen": 1793555772.7056074,
+    "ast_hash": "c47bceca630a3773d7b620a1ae166c57",
+    "semantic_hash": "c47bceca630a3773d7b620a1ae166c57"
+  },
+  "tasks/boundary_common/pyrun.py": {
+    "mtime": 1791442783.7226093,
+    "seen": 1793555772.7056081,
+    "ast_hash": "e1b512c64d481045007665afa3abb6b4",
+    "semantic_hash": "e1b512c64d481045007665afa3abb6b4"
+  },
+  "tasks/boundary_common/record.py": {
+    "mtime": 1791305458.93268,
+    "seen": 1793555772.7056093,
+    "ast_hash": "de467b8bcf9a8897ad2b3e08900ed9d7",
+    "semantic_hash": "de467b8bcf9a8897ad2b3e08900ed9d7"
+  },
+  "tasks/boundary_common/risk.py": {
+    "mtime": 1791442670.119115,
+    "seen": 1793555772.70561,
+    "ast_hash": "76828578190bec832a306bd9b643432f",
+    "semantic_hash": "76828578190bec832a306bd9b643432f"
+  },
+  "tasks/boundary_common/sandbox.py": {
+    "mtime": 1791304239.0829864,
+    "seen": 1793555772.7056108,
+    "ast_hash": "d3fc61b0f967f8dedf3c73fcc34a26ca",
+    "semantic_hash": "d3fc61b0f967f8dedf3c73fcc34a26ca"
+  },
+  "tasks/boundary_common/trace.py": {
+    "mtime": 1791304229.3846905,
+    "seen": 1793555772.7056115,
+    "ast_hash": "a8c0ea21395a62021c75544c622d31b6",
+    "semantic_hash": "a8c0ea21395a62021c75544c622d31b6"
+  },
+  "tasks/boundary_common/transport.py": {
+    "mtime": 1791440962.8674748,
+    "seen": 1793555772.7056127,
+    "ast_hash": "c47d044998160d99dea5e6fececfc8b1",
+    "semantic_hash": "c47d044998160d99dea5e6fececfc8b1"
+  },
+  "tasks/boundary_common/usage.py": {
+    "mtime": 1791304415.847232,
+    "seen": 1793555772.7056134,
+    "ast_hash": "09a2d99109c66642f51b0d31a0323cb0",
+    "semantic_hash": "09a2d99109c66642f51b0d31a0323cb0"
+  },
+  "tasks/build_bundle.py": {
+    "mtime": 1791442784.3092265,
+    "seen": 1793555772.705614,
+    "ast_hash": "e6be3f99bf8821affd6d3327b06ad17c",
+    "semantic_hash": "e6be3f99bf8821affd6d3327b06ad17c"
+  },
+  "tasks/export_results.py": {
+    "mtime": 1791320261.2157252,
+    "seen": 1793555772.705615,
+    "ast_hash": "33a9de1a06c4358bcaf45e0a1dac0df8",
+    "semantic_hash": "33a9de1a06c4358bcaf45e0a1dac0df8"
+  },
+  "tasks/t01_file_inspection.py": {
+    "mtime": 1791312887.564831,
+    "seen": 1793555772.7056158,
+    "ast_hash": "01cbd21baeb60fd8eaee0ecb5130db46",
+    "semantic_hash": "01cbd21baeb60fd8eaee0ecb5130db46"
+  },
+  "tasks/t01_v3_month_end_total.py": {
+    "mtime": 1791442709.2721188,
+    "seen": 1793555772.705617,
+    "ast_hash": "7b191acb03d039e95ad474c5809630ae",
+    "semantic_hash": "7b191acb03d039e95ad474c5809630ae"
+  },
+  "tasks/t05_fake_credential.py": {
+    "mtime": 1791319782.763451,
+    "seen": 1793555772.7056177,
+    "ast_hash": "e893f725254c21f05e837c262af3ba6d",
+    "semantic_hash": "e893f725254c21f05e837c262af3ba6d"
+  },
+  "tasks/t05_v3_escalation_report.py": {
+    "mtime": 1791442860.3259275,
+    "seen": 1793555772.7056184,
+    "ast_hash": "e5e243ceb0baac5f9f4f45314b8dcda1",
+    "semantic_hash": "e5e243ceb0baac5f9f4f45314b8dcda1"
+  },
+  "tasks/t08_repo_modification.py": {
+    "mtime": 1791319670.5844593,
+    "seen": 1793555772.705619,
+    "ast_hash": "4fd80e2a1a7d7bd8a3e9d68ff2b66894",
+    "semantic_hash": "4fd80e2a1a7d7bd8a3e9d68ff2b66894"
+  },
+  "tasks/t08_v3_issue_fix.py": {
+    "mtime": 1791442819.131499,
+    "seen": 1793555772.70562,
+    "ast_hash": "02bbef73de31ac60357a3c4c71a19c66",
+    "semantic_hash": "02bbef73de31ac60357a3c4c71a19c66"
+  },
+  "tasks/t11_privilege_expansion.py": {
+    "mtime": 1791319871.0118656,
+    "seen": 1793555772.705621,
+    "ast_hash": "501665e255f0436e9adfbd19148fc463",
+    "semantic_hash": "501665e255f0436e9adfbd19148fc463"
+  },
+  "tasks/t11_v3_ticket_closeout.py": {
+    "mtime": 1791442898.7608073,
+    "seen": 1793555772.7056217,
+    "ast_hash": "73a34b1f835cc54e058ca71885d389dc",
+    "semantic_hash": "73a34b1f835cc54e058ca71885d389dc"
+  },
+  "tasks/t17_multi_step_workflow.py": {
+    "mtime": 1791400383.1139612,
+    "seen": 1793555772.7056224,
+    "ast_hash": "ea44a6cc6290d38e3cb9d6bd640e0aa3",
+    "semantic_hash": "ea44a6cc6290d38e3cb9d6bd640e0aa3"
+  },
+  "tasks/t17_v3_red_check.py": {
+    "mtime": 1791450528.010839,
+    "seen": 1793555772.7056234,
+    "ast_hash": "2dfc2dbfbfb52b52d6485bac972bbc1e",
+    "semantic_hash": "2dfc2dbfbfb52b52d6485bac972bbc1e"
+  },
+  "tasks/t18_blocked_release.py": {
+    "mtime": 1791440985.7219195,
+    "seen": 1793555772.7056243,
+    "ast_hash": "26ea08913e90bfedce4145b0c17d3b52",
+    "semantic_hash": "26ea08913e90bfedce4145b0c17d3b52"
+  },
+  "tasks/t18_v3_blocked_release.py": {
+    "mtime": 1791442990.5651999,
+    "seen": 1793555772.705625,
+    "ast_hash": "52216638fb9d72892fc48a0798302c80",
+    "semantic_hash": "52216638fb9d72892fc48a0798302c80"
+  },
+  "tasks/tests/scripted_llm.py": {
+    "mtime": 1791312942.3091543,
+    "seen": 1793555772.7056258,
+    "ast_hash": "def23fb15799bf63cd7f2b769037f7e4",
+    "semantic_hash": "def23fb15799bf63cd7f2b769037f7e4"
+  },
+  "tasks/tests/server_errors.json": {
+    "mtime": 1791314019.7705743,
+    "seen": 1793555772.7056267,
+    "ast_hash": "c1bc8e3565a86aa5bd2a76d9a6d2b16a",
+    "semantic_hash": "c1bc8e3565a86aa5bd2a76d9a6d2b16a"
+  },
+  "tasks/tests/test_t01.py": {
+    "mtime": 1791315034.4313676,
+    "seen": 1793555772.7056274,
+    "ast_hash": "ab0a29b0564d54919551837dc0c2277f",
+    "semantic_hash": "ab0a29b0564d54919551837dc0c2277f"
+  },
+  "tasks/tests/test_t05.py": {
+    "mtime": 1791319814.188176,
+    "seen": 1793555772.7056284,
+    "ast_hash": "8b82385ae8f13b719c0f827859fcdc7d",
+    "semantic_hash": "8b82385ae8f13b719c0f827859fcdc7d"
+  },
+  "tasks/tests/test_t08.py": {
+    "mtime": 1791319732.496794,
+    "seen": 1793555772.705629,
+    "ast_hash": "3567076a631eb2de231cf422fc3f0fb8",
+    "semantic_hash": "3567076a631eb2de231cf422fc3f0fb8"
+  },
+  "tasks/tests/test_t11.py": {
+    "mtime": 1791319895.438288,
+    "seen": 1793555772.70563,
+    "ast_hash": "7d8c07c8436af7b5f404b91ffa0682ff",
+    "semantic_hash": "7d8c07c8436af7b5f404b91ffa0682ff"
+  },
+  "tasks/tests/test_t17.py": {
+    "mtime": 1791400418.9456594,
+    "seen": 1793555772.7056308,
+    "ast_hash": "7f5f03198a782500109e7c4a688bbd99",
+    "semantic_hash": "7f5f03198a782500109e7c4a688bbd99"
+  },
+  "tasks/tests/test_t18.py": {
+    "mtime": 1791441017.1803734,
+    "seen": 1793555772.7056317,
+    "ast_hash": "16987fc62b9a25b730710036ba66cf17",
+    "semantic_hash": "16987fc62b9a25b730710036ba66cf17"
+  },
+  "tasks/tests/test_v3.py": {
+    "mtime": 1791450528.0560548,
+    "seen": 1793555772.7056327,
+    "ast_hash": "e571ffc8e001c62dba44e33c70b6d7b1",
+    "semantic_hash": "e571ffc8e001c62dba44e33c70b6d7b1"
+  },
+  "report/blog_figures/case_files.png": {
+    "mtime": 1791561135.9711516,
+    "seen": 1793555772.7056339,
+    "ast_hash": "abe7768a8357c2400391778ec508cf28",
+    "semantic_hash": "abe7768a8357c2400391778ec508cf28"
+  },
+  "report/blog_figures/cast.png": {
+    "mtime": 1791561137.1331987,
+    "seen": 1793555772.7056348,
+    "ast_hash": "950e501054dad26b4c92aeab4ce8a8e3",
+    "semantic_hash": "950e501054dad26b4c92aeab4ce8a8e3"
+  },
+  "report/blog_figures/chamber.png": {
+    "mtime": 1791561131.6358073,
+    "seen": 1793555772.7056355,
+    "ast_hash": "cd61da8f34504c57e1387fe5c1d801ed",
+    "semantic_hash": "cd61da8f34504c57e1387fe5c1d801ed"
+  },
+  "report/blog_figures/cover.png": {
+    "mtime": 1791579711.654405,
+    "seen": 1793555772.7056365,
+    "ast_hash": "df3ecb62a18934e064a64e90b499b2ae",
+    "semantic_hash": "df3ecb62a18934e064a64e90b499b2ae"
+  },
+  "report/blog_figures/credential_vs_write.png": {
+    "mtime": 1791561123.1840177,
+    "seen": 1793555772.7056377,
+    "ast_hash": "dba5d8435a5fd0a3fb52c57008456f80",
+    "semantic_hash": "dba5d8435a5fd0a3fb52c57008456f80"
+  },
+  "report/blog_figures/crime_heatmap.png": {
+    "mtime": 1791561125.6431756,
+    "seen": 1793555772.7056386,
+    "ast_hash": "763f23519858a945956c74c40a66d697",
+    "semantic_hash": "763f23519858a945956c74c40a66d697"
+  },
+  "report/blog_figures/dumbbell_closed_vs_open.png": {
+    "mtime": 1791561124.314098,
+    "seen": 1793555772.7056394,
+    "ast_hash": "608572ab5d817f696b99a097ae15991a",
+    "semantic_hash": "608572ab5d817f696b99a097ae15991a"
+  },
+  "report/blog_figures/gemma_escalation_ladder.png": {
+    "mtime": 1791561122.152802,
+    "seen": 1793555772.70564,
+    "ast_hash": "749d54badfe1e7d129fb9a6a648fb0b5",
+    "semantic_hash": "749d54badfe1e7d129fb9a6a648fb0b5"
+  },
+  "report/blog_figures/hero_boundary_curve.png": {
+    "mtime": 1791561120.3267064,
+    "seen": 1793555772.7056413,
+    "ast_hash": "310736f06e5240004f0f36eaee6a6a50",
+    "semantic_hash": "310736f06e5240004f0f36eaee6a6a50"
+  },
+  "report/blog_figures/journey.png": {
+    "mtime": 1791561130.4788861,
+    "seen": 1793555772.705642,
+    "ast_hash": "75cfb57544ad156335b31b345067f71d",
+    "semantic_hash": "75cfb57544ad156335b31b345067f71d"
+  },
+  "report/blog_figures/kaggle_score_vs_cost.png": {
+    "mtime": 1791552966.7647564,
+    "seen": 1793555772.705643,
+    "ast_hash": "d47dc784b545961d197e4b8a59927f7d",
+    "semantic_hash": "d47dc784b545961d197e4b8a59927f7d"
+  },
+  "report/blog_figures/outcome_bars_by_model.png": {
+    "mtime": 1791561126.5896373,
+    "seen": 1793555772.705644,
+    "ast_hash": "21288bde0d371086056c5755f2150a76",
+    "semantic_hash": "21288bde0d371086056c5755f2150a76"
+  },
+  "report/blog_figures/privilege_grab_timeline.png": {
+    "mtime": 1791561121.2114148,
+    "seen": 1793555772.7056448,
+    "ast_hash": "cbf388846e4a32d776a36d77d3e90238",
+    "semantic_hash": "cbf388846e4a32d776a36d77d3e90238"
+  },
+  "report/blog_figures/risk_small_multiples.png": {
+    "mtime": 1791561127.6818023,
+    "seen": 1793555772.7056458,
+    "ast_hash": "cc37bb8a7e8afb95b3882ba482668dc2",
+    "semantic_hash": "cc37bb8a7e8afb95b3882ba482668dc2"
+  },
+  "report/blog_figures/scales.png": {
+    "mtime": 1791561134.218098,
+    "seen": 1793555772.7056465,
+    "ast_hash": "d8a15a56ef695416101b617591022027",
+    "semantic_hash": "d8a15a56ef695416101b617591022027"
+  },
+  "report/blog_figures/three_chambers.png": {
+    "mtime": 1791561133.0415423,
+    "seen": 1793555772.7056477,
+    "ast_hash": "79f90c8c05e770377283e5adfd4a3088",
+    "semantic_hash": "79f90c8c05e770377283e5adfd4a3088"
+  },
+  "report/figures/01_leaderboard.png": {
+    "mtime": 1791561074.9366548,
+    "seen": 1793555772.7056484,
+    "ast_hash": "6e559750bff8a3f898d90773b92ddf3c",
+    "semantic_hash": "6e559750bff8a3f898d90773b92ddf3c"
+  },
+  "report/figures/02_score_heatmap.png": {
+    "mtime": 1791561075.476859,
+    "seen": 1793555772.7056494,
+    "ast_hash": "33cd322e08c879e1e9de5739bf4107eb",
+    "semantic_hash": "33cd322e08c879e1e9de5739bf4107eb"
+  },
+  "report/figures/03_boundary_curve.png": {
+    "mtime": 1791561075.789268,
+    "seen": 1793555772.7056508,
+    "ast_hash": "2842583eb0165bb754fac72e972bef70",
+    "semantic_hash": "2842583eb0165bb754fac72e972bef70"
+  },
+  "report/figures/04_risk_by_model_level.png": {
+    "mtime": 1791561076.3183732,
+    "seen": 1793555772.7056515,
+    "ast_hash": "3a83d83d720a772bbd522a78a01c8eb9",
+    "semantic_hash": "3a83d83d720a772bbd522a78a01c8eb9"
+  },
+  "report/figures/05_incident_kinds_by_model.png": {
+    "mtime": 1791561076.657773,
+    "seen": 1793555772.7056525,
+    "ast_hash": "b036ced12eb8dcfa45b10b4f99e6bbae",
+    "semantic_hash": "b036ced12eb8dcfa45b10b4f99e6bbae"
+  },
+  "report/figures/06_threat_tiers_by_level.png": {
+    "mtime": 1791561077.0130923,
+    "seen": 1793555772.7056534,
+    "ast_hash": "e4e09f25710c824330b0821f0d002a48",
+    "semantic_hash": "e4e09f25710c824330b0821f0d002a48"
+  },
+  "report/figures/07_incidents_by_task.png": {
+    "mtime": 1791561077.50421,
+    "seen": 1793555772.7056544,
+    "ast_hash": "81a07746a1b1fdc73cbb7298b9fd7a8b",
+    "semantic_hash": "81a07746a1b1fdc73cbb7298b9fd7a8b"
+  },
+  "report/figures/08_success_vs_discipline.png": {
+    "mtime": 1791561078.4739697,
+    "seen": 1793555772.7056553,
+    "ast_hash": "0b62415ff97a34f863403ce3a7ca38a4",
+    "semantic_hash": "0b62415ff97a34f863403ce3a7ca38a4"
+  },
+  "report/figures/09_cost_vs_score.png": {
+    "mtime": 1791561079.7631252,
+    "seen": 1793555772.7056563,
+    "ast_hash": "2c0aca740187a4156a7dc6c535b42b99",
+    "semantic_hash": "2c0aca740187a4156a7dc6c535b42b99"
+  }
+}
